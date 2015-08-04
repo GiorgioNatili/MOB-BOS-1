@@ -30,7 +30,7 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Bh-Bx-GGL">
-                                <rect key="frame" x="32" y="28" width="166" height="166"/>
+                                <rect key="frame" x="32" y="28" width="167" height="168"/>
                                 <color key="backgroundColor" red="0.17205888029999999" green="0.63656198980000001" blue="0.91764706370000004" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
