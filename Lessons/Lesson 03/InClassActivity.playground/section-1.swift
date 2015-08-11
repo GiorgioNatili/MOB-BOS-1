@@ -28,6 +28,9 @@ if age > 21 {
 }
 
 // TODO: Print the first fifty multiples of seven minus one (e.g. the first three multiples are 7, 14, 21. The first three multiples minus one are 6, 13, 20)
+for var i = 1; i <= 50; i++ {
+    println(7*i-1)
+}
 
 // TODO: Create a constant called number
 
