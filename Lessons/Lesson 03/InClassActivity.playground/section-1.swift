@@ -19,6 +19,13 @@ if age > 21 {
 }
 
 // TODO: Print “you can drive” if the user is above 16 but below 18. It should print “You can drive and vote” if the user is above 18 but below 21. If the user is above 21, it should print “you can drive, vote and drink (but not at the same time!”.
+if age > 21 {
+    println("You can drive, vote and drink (but not at the same time!)")
+} else if age > 18 && age < 21 {
+    println("You can drive and vote")
+} else if age > 16 && age < 18 {
+    println("You can drive")
+}
 
 // TODO: Print the first fifty multiples of seven minus one (e.g. the first three multiples are 7, 14, 21. The first three multiples minus one are 6, 13, 20)
 
