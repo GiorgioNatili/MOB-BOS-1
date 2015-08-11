@@ -82,10 +82,20 @@ fizzBuzz()
 
 // BONUS TODO: The first fibonacci number is 0, the second is 1, the third is 1, the fourth is two, the fifth is 3, the sixth is 5, etc. The Xth fibonacci number is the sum of the X-1th fibonacci number and the X-2th fibonacci number. Print the 37th fibonacci number below
 
-func fibbonaciTo(number : Int){
-    var arr = [0, 1, 1]
-    arr.append(1)
+func fibbonaciTo(number : Int) {
+    var count = 2
+    var a = 0
+    var b = 1
+    var c = 0
+    
+    while count < number {
+        c = a + b
+        a = b
+        b = c
+        count++
+    }
+    
 }
 
-fibbonaciTo(10)
+fibbonaciTo(37)
 
