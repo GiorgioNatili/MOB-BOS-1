@@ -94,7 +94,7 @@ for i in howMany {
     }
 }
 
-//need to still print it in a continuious list that goes form 1 to 100... 
+//need to still print it in a continuious list that goes form 1 to 100...
 
 
 
