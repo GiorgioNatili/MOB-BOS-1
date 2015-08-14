@@ -14,6 +14,9 @@
 		039CD4891B7E03D2004B5B13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039CD4881B7E03D2004B5B13 /* Images.xcassets */; };
 		039CD48C1B7E03D2004B5B13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039CD48A1B7E03D2004B5B13 /* LaunchScreen.xib */; };
 		039CD4981B7E03D2004B5B13 /* _Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CD4971B7E03D2004B5B13 /* _Tests.swift */; };
+		039CD4A21B7E0CD8004B5B13 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CD4A11B7E0CD8004B5B13 /* Person.swift */; };
+		03E52D741B7E7A9500BADACD /* SumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E52D731B7E7A9500BADACD /* SumViewController.swift */; };
+		03E52D761B7E7C3B00BADACD /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E52D751B7E7C3B00BADACD /* Sum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		039CD4911B7E03D2004B5B13 /* 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		039CD4961B7E03D2004B5B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		039CD4971B7E03D2004B5B13 /* _Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Tests.swift; sourceTree = "<group>"; };
+		039CD4A11B7E0CD8004B5B13 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		03E52D731B7E7A9500BADACD /* SumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumViewController.swift; sourceTree = "<group>"; };
+		03E52D751B7E7C3B00BADACD /* Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,14 @@
 			children = (
 				039CD47E1B7E03D2004B5B13 /* AppDelegate.swift */,
 				039CD4831B7E03D2004B5B13 /* ViewController.swift */,
+				03E52D731B7E7A9500BADACD /* SumViewController.swift */,
 				039CD4851B7E03D2004B5B13 /* Main.storyboard */,
 				039CD4881B7E03D2004B5B13 /* Images.xcassets */,
 				039CD48A1B7E03D2004B5B13 /* LaunchScreen.xib */,
 				039CD4801B7E03D2004B5B13 /* _.xcdatamodeld */,
 				039CD47C1B7E03D2004B5B13 /* Supporting Files */,
+				039CD4A11B7E0CD8004B5B13 /* Person.swift */,
+				03E52D751B7E7C3B00BADACD /* Sum.swift */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -216,7 +225,10 @@
 			files = (
 				039CD4841B7E03D2004B5B13 /* ViewController.swift in Sources */,
 				039CD47F1B7E03D2004B5B13 /* AppDelegate.swift in Sources */,
+				039CD4A21B7E0CD8004B5B13 /* Person.swift in Sources */,
 				039CD4821B7E03D2004B5B13 /* _.xcdatamodeld in Sources */,
+				03E52D741B7E7A9500BADACD /* SumViewController.swift in Sources */,
+				03E52D761B7E7C3B00BADACD /* Sum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +426,7 @@
 				039CD49D1B7E03D2004B5B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		039CD49E1B7E03D2004B5B13 /* Build configuration list for PBXNativeTarget "2Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				039CD4A01B7E03D2004B5B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

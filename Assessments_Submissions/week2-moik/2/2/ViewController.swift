@@ -19,7 +19,13 @@ class ViewController: UIViewController {
     
     
     @IBAction func tapButton(sender: AnyObject) {
-        textField.text = "Hello \(nameField.text) you are \(ageField.text) years old!"
+
+        var age = ageField.text.toInt()!
+        var newPerson = Person(name: nameField.text, age: age)
+        
+        textField.text = "Results: \(newPerson.checkAge(age))"
+        textField.text = "Hello \(newPerson.name) you are \(newPerson.age) years old!"
+        
     }
     
 
