@@ -17,6 +17,8 @@
 		039CD4A21B7E0CD8004B5B13 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CD4A11B7E0CD8004B5B13 /* Person.swift */; };
 		03E52D741B7E7A9500BADACD /* SumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E52D731B7E7A9500BADACD /* SumViewController.swift */; };
 		03E52D761B7E7C3B00BADACD /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E52D751B7E7C3B00BADACD /* Sum.swift */; };
+		03E52D781B7E9D2B00BADACD /* Even.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E52D771B7E9D2B00BADACD /* Even.swift */; };
+		03E52D7A1B7E9D5A00BADACD /* EvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E52D791B7E9D5A00BADACD /* EvenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		039CD4A11B7E0CD8004B5B13 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		03E52D731B7E7A9500BADACD /* SumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumViewController.swift; sourceTree = "<group>"; };
 		03E52D751B7E7C3B00BADACD /* Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
+		03E52D771B7E9D2B00BADACD /* Even.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Even.swift; sourceTree = "<group>"; };
+		03E52D791B7E9D5A00BADACD /* EvenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				039CD47E1B7E03D2004B5B13 /* AppDelegate.swift */,
 				039CD4831B7E03D2004B5B13 /* ViewController.swift */,
 				03E52D731B7E7A9500BADACD /* SumViewController.swift */,
+				03E52D791B7E9D5A00BADACD /* EvenViewController.swift */,
 				039CD4851B7E03D2004B5B13 /* Main.storyboard */,
 				039CD4881B7E03D2004B5B13 /* Images.xcassets */,
 				039CD48A1B7E03D2004B5B13 /* LaunchScreen.xib */,
@@ -95,6 +100,7 @@
 				039CD47C1B7E03D2004B5B13 /* Supporting Files */,
 				039CD4A11B7E0CD8004B5B13 /* Person.swift */,
 				03E52D751B7E7C3B00BADACD /* Sum.swift */,
+				03E52D771B7E9D2B00BADACD /* Even.swift */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -223,10 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E52D7A1B7E9D5A00BADACD /* EvenViewController.swift in Sources */,
 				039CD4841B7E03D2004B5B13 /* ViewController.swift in Sources */,
 				039CD47F1B7E03D2004B5B13 /* AppDelegate.swift in Sources */,
 				039CD4A21B7E0CD8004B5B13 /* Person.swift in Sources */,
 				039CD4821B7E03D2004B5B13 /* _.xcdatamodeld in Sources */,
+				03E52D781B7E9D2B00BADACD /* Even.swift in Sources */,
 				03E52D741B7E7A9500BADACD /* SumViewController.swift in Sources */,
 				03E52D761B7E7C3B00BADACD /* Sum.swift in Sources */,
 			);
