@@ -129,9 +129,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJN-R7-NF8">
+                                <rect key="frame" x="240" y="477" width="109" height="30"/>
+                                <state key="normal" title="Even or Odd &gt;&gt;">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ekO-Fh-wgr" kind="show" id="CpS-KI-ehR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="rJN-R7-NF8" secondAttribute="centerX" constant="5.5" id="4BR-7k-lbH"/>
                             <constraint firstAttribute="centerX" secondItem="zr2-GJ-Khq" secondAttribute="centerX" id="afq-7K-DwU"/>
                             <constraint firstAttribute="centerX" secondItem="zr2-GJ-Khq" secondAttribute="centerX" id="f62-Og-6UT"/>
                             <constraint firstAttribute="centerX" secondItem="d9c-fW-2YD" secondAttribute="centerX" id="g2P-vW-eXf"/>
@@ -147,6 +157,57 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQ4-oR-YSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1918" y="277"/>
+        </scene>
+        <!--Even Number View Controller-->
+        <scene sceneID="xrT-L4-1R0">
+            <objects>
+                <viewController id="ekO-Fh-wgr" customClass="EvenNumberViewController" customModule="week2_shamis" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sbE-tX-cb3"/>
+                        <viewControllerLayoutGuide type="bottom" id="eVk-PH-1Hx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NuY-11-Ovf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlG-hI-eMm">
+                                <rect key="frame" x="253" y="285" width="95" height="30"/>
+                                <state key="normal" title="Odd or Even?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="evenNumberButton:" destination="ekO-Fh-wgr" eventType="touchUpInside" id="61e-V6-dcl"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TSO-re-LQ6">
+                                <rect key="frame" x="253" y="221" width="95" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYW-Uz-V4T">
+                                <rect key="frame" x="156" y="342" width="289" height="103"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="qlG-hI-eMm" secondAttribute="centerX" id="2Cp-WZ-PbH"/>
+                            <constraint firstAttribute="centerX" secondItem="qlG-hI-eMm" secondAttribute="centerX" constant="-0.5" id="7r3-y2-4n4"/>
+                            <constraint firstAttribute="centerY" secondItem="qlG-hI-eMm" secondAttribute="centerY" id="O8I-9C-fW6"/>
+                            <constraint firstAttribute="centerX" secondItem="TSO-re-LQ6" secondAttribute="centerX" constant="-1.5" id="Pn0-LF-D3R"/>
+                            <constraint firstAttribute="centerX" secondItem="lYW-Uz-V4T" secondAttribute="centerX" constant="-9.5" id="k3D-HU-7zi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="evenAnswerLabel" destination="lYW-Uz-V4T" id="1Zq-4b-iPG"/>
+                        <outlet property="numberInput" destination="TSO-re-LQ6" id="cmR-qf-fKW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tee-Dc-HSP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2569" y="277"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HL2-nA-RGI">
