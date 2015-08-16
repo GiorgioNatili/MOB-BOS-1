@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var helloWorldLabel: UILabel!
+
+    @IBAction func helloWorld(sender: UIButton) {
+        helloWorldLabel.text = "Hello World!"
+    }
 
 }
 
