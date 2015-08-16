@@ -165,6 +165,7 @@
 		AFA26F541B0575D4008C7150 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Anomalus;
 				TargetAttributes = {

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8DAB9B7EFABBCC9EE3489AE0D5D4822CED5941D3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C9AA68F6BC24E730DE9CA4DA24CEAC966A1ED377" : 0,
+    "8DAB9B7EFABBCC9EE3489AE0D5D4822CED5941D3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3BE61B66-7FF3-44D1-829C-033DD6FBD176",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C9AA68F6BC24E730DE9CA4DA24CEAC966A1ED377" : "",
+    "8DAB9B7EFABBCC9EE3489AE0D5D4822CED5941D3" : "Assessments_Submissions\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "assignment1_regalado",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "assignment1_regalado\/assignment1_regalado.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "week2-regalado",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8DAB9B7EFABBCC9EE3489AE0D5D4822CED5941D3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GiorgioNatili\/MOB-BOS-1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C9AA68F6BC24E730DE9CA4DA24CEAC966A1ED377"
+    }
+  ]
+}
