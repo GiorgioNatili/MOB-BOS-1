@@ -26,6 +26,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var ageField: UITextField!
 
+    @IBOutlet weak var ageMessageField: UILabel!
+
     @IBAction func helloWorld(sender: UIButton) {
         let name = nameField.text
         let age = ageField.text
@@ -34,6 +36,18 @@ class ViewController: UIViewController {
             helloWorldLabel.text = "Hello \(name)"
         } else if !name.isEmpty && !age.isEmpty {
             helloWorldLabel.text = "Hello \(name), you are \(age) years old!"
+            
+            let ageInt = age.toInt()
+            
+            if ageInt >= 21 {
+                ageMessageField.text = "You can drink."
+            } else if ageInt >= 18 {
+                ageMessageField.text = "You can vote."
+            } else if ageInt >= 16 {
+                ageMessageField.text = "You can drive."
+            } else {
+                self.ageMessageField.text = "Keep growing Junior..."
+            }
         } else {
             helloWorldLabel.text = "Hello World!"
         }
