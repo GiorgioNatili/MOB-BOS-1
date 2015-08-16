@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4K-33-oXU">
-                                <rect key="frame" x="259" y="20" width="83" height="30"/>
+                                <rect key="frame" x="259" y="184" width="83" height="30"/>
                                 <state key="normal" title="Hello World!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -26,20 +26,49 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQx-Xg-NAn">
-                                <rect key="frame" x="300" y="66" width="0.0" height="0.0"/>
+                                <rect key="frame" x="300" y="230" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lO-ZZ-6kv">
+                                <rect key="frame" x="279" y="28" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joV-u3-MHr">
+                                <rect key="frame" x="279" y="100" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ceD-W0-m4w">
+                                <rect key="frame" x="252" y="57" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TDz-aH-xhJ">
+                                <rect key="frame" x="253" y="129" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="m4K-33-oXU" secondAttribute="centerX" constant="-0.5" id="H0H-MF-wdr"/>
+                            <constraint firstAttribute="centerX" secondItem="joV-u3-MHr" secondAttribute="centerX" constant="-2" id="HAh-TD-Si6"/>
+                            <constraint firstAttribute="centerX" secondItem="ceD-W0-m4w" secondAttribute="centerX" constant="-0.5" id="I4I-kV-Vpb"/>
                             <constraint firstAttribute="centerX" secondItem="TQx-Xg-NAn" secondAttribute="centerX" id="YXd-pp-B69"/>
+                            <constraint firstAttribute="centerX" secondItem="TDz-aH-xhJ" secondAttribute="centerX" constant="-1.5" id="eje-hA-zyY"/>
+                            <constraint firstAttribute="centerX" secondItem="TDz-aH-xhJ" secondAttribute="centerX" constant="-1.5" id="flP-HZ-cag"/>
+                            <constraint firstAttribute="centerX" secondItem="3lO-ZZ-6kv" secondAttribute="centerX" constant="-2" id="ygi-bN-rf5"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="ageField" destination="TDz-aH-xhJ" id="ZaI-e3-F8U"/>
                         <outlet property="helloWorldLabel" destination="TQx-Xg-NAn" id="cgC-cI-U19"/>
+                        <outlet property="nameField" destination="ceD-W0-m4w" id="cyq-da-hMQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

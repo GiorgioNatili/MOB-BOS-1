@@ -22,8 +22,21 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var helloWorldLabel: UILabel!
 
+    @IBOutlet weak var nameField: UITextField!
+
+    @IBOutlet weak var ageField: UITextField!
+
     @IBAction func helloWorld(sender: UIButton) {
-        helloWorldLabel.text = "Hello World!"
+        let name = nameField.text
+        let age = ageField.text
+
+        if !name.isEmpty && age.isEmpty {
+            helloWorldLabel.text = "Hello \(name)"
+        } else if !name.isEmpty && !age.isEmpty {
+            helloWorldLabel.text = "Hello \(name), you are \(age) years old!"
+        } else {
+            helloWorldLabel.text = "Hello World!"
+        }
     }
 
 }
