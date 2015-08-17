@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var AgeField: UITextField!
     @IBOutlet weak var HelloNameAge: UILabel!
     @IBOutlet weak var ResponsibilityLabel: UILabel!
+    @IBOutlet weak var SumField: UILabel!
+    @IBOutlet weak var AddField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +50,12 @@ class ViewController: UIViewController {
             HelloNameAge.text = "Hello \(NameField.text), your age is \(AgeField.text) years old!"
             println(HelloNameAge)
         }
+    }
+    @IBAction func addNewNumber(sender: AnyObject) {
+        var addNumber = (AddField.text.toInt() != nil) ? AddField.text.toInt() : 0
+        var counter = SumField.text!.toInt() ?? 0
+        SumField.text = String(addNumber! + counter)
+       
     }
 
 }

@@ -14,6 +14,7 @@
 		E5D25F391B81645F007CD94C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D25F381B81645F007CD94C /* Images.xcassets */; };
 		E5D25F3C1B81645F007CD94C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5D25F3A1B81645F007CD94C /* LaunchScreen.xib */; };
 		E5D25F481B81645F007CD94C /* Week2_HartwigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D25F471B81645F007CD94C /* Week2_HartwigTests.swift */; };
+		E5D25F521B817552007CD94C /* SumExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D25F511B817552007CD94C /* SumExercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E5D25F411B81645F007CD94C /* Week2_HartwigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2_HartwigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D25F461B81645F007CD94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5D25F471B81645F007CD94C /* Week2_HartwigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_HartwigTests.swift; sourceTree = "<group>"; };
+		E5D25F511B817552007CD94C /* SumExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumExercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				E5D25F3A1B81645F007CD94C /* LaunchScreen.xib */,
 				E5D25F301B81645F007CD94C /* Week2_Hartwig.xcdatamodeld */,
 				E5D25F2C1B81645F007CD94C /* Supporting Files */,
+				E5D25F511B817552007CD94C /* SumExercise.swift */,
 			);
 			path = Week2_Hartwig;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5D25F341B81645F007CD94C /* ViewController.swift in Sources */,
+				E5D25F521B817552007CD94C /* SumExercise.swift in Sources */,
 				E5D25F2F1B81645F007CD94C /* AppDelegate.swift in Sources */,
 				E5D25F321B81645F007CD94C /* Week2_Hartwig.xcdatamodeld in Sources */,
 			);
@@ -413,6 +417,7 @@
 				E5D25F4D1B81645F007CD94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5D25F4E1B81645F007CD94C /* Build configuration list for PBXNativeTarget "Week2_HartwigTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				E5D25F501B81645F007CD94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
