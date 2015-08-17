@@ -33,10 +33,17 @@
                                 </state>
                                 <connections>
                                     <action selector="giveAHello:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="f13-Mv-XGc"/>
+                                    <action selector="responsibilities:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eES-ol-TwZ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpO-Ko-QbD">
                                 <rect key="frame" x="252" y="343" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iuz-9p-BAs">
+                                <rect key="frame" x="252" y="404" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -46,11 +53,14 @@
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="Wgg-NH-Fps" secondAttribute="centerY" constant="113" id="2Fq-YG-Mq1"/>
                             <constraint firstAttribute="centerX" secondItem="Wgg-NH-Fps" secondAttribute="centerX" constant="19.5" id="2y6-yE-WHy"/>
+                            <constraint firstItem="Iuz-9p-BAs" firstAttribute="top" secondItem="fpO-Ko-QbD" secondAttribute="bottom" constant="40" id="KMU-V4-ZhG"/>
+                            <constraint firstAttribute="centerY" secondItem="Iuz-9p-BAs" secondAttribute="centerY" constant="-114.5" id="KQy-pb-FAE"/>
                             <constraint firstAttribute="centerY" secondItem="fpO-Ko-QbD" secondAttribute="centerY" constant="-53.5" id="OiM-sf-hI4"/>
                             <constraint firstAttribute="centerY" secondItem="q94-RF-ahR" secondAttribute="centerY" constant="22" id="UMM-nM-Vtf"/>
                             <constraint firstAttribute="centerX" secondItem="fpO-Ko-QbD" secondAttribute="centerX" constant="27" id="XPX-Zx-pLn"/>
                             <constraint firstAttribute="centerX" secondItem="q94-RF-ahR" secondAttribute="centerX" constant="27" id="aA8-tG-aMe"/>
                             <constraint firstAttribute="centerY" secondItem="Asf-ow-yhn" secondAttribute="centerY" constant="179" id="boN-YE-29I"/>
+                            <constraint firstAttribute="centerX" secondItem="Iuz-9p-BAs" secondAttribute="centerX" constant="27" id="kUB-LC-Gbs"/>
                             <constraint firstAttribute="centerX" secondItem="Asf-ow-yhn" secondAttribute="centerX" constant="19.5" id="qyx-Rv-vpk"/>
                         </constraints>
                     </view>
@@ -58,6 +68,7 @@
                         <outlet property="AgeField" destination="Wgg-NH-Fps" id="d4o-aY-A5Z"/>
                         <outlet property="HelloNameAge" destination="fpO-Ko-QbD" id="dR2-2D-v8Y"/>
                         <outlet property="NameField" destination="Asf-ow-yhn" id="pim-eC-cIm"/>
+                        <outlet property="ResponsibilityLabel" destination="Iuz-9p-BAs" id="63q-9w-WM2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
