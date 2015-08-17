@@ -193,7 +193,7 @@
         <!--View Controller-->
         <scene sceneID="u4B-zz-gXj">
             <objects>
-                <viewController id="Aau-FW-koh" sceneMemberID="viewController">
+                <viewController id="Aau-FW-koh" customClass="ViewController" customModule="Week2_Hartwig" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PtZ-Ir-0QN"/>
                         <viewControllerLayoutGuide type="bottom" id="BYw-Ci-hvr"/>
@@ -201,8 +201,42 @@
                     <view key="view" contentMode="scaleToFill" id="Zue-Ct-kps">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OmY-Wr-9UF">
+                                <rect key="frame" x="243" y="144" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQ8-cM-bYB">
+                                <rect key="frame" x="268" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CS-xp-g3h">
+                                <rect key="frame" x="268" y="226" width="59" height="30"/>
+                                <state key="normal" title="Is Even?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="isEven:" destination="Aau-FW-koh" eventType="touchUpInside" id="ePf-2P-Ulx"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="3CS-xp-g3h" secondAttribute="centerX" constant="2.5" id="3fP-aP-JpX"/>
+                            <constraint firstAttribute="centerX" secondItem="OmY-Wr-9UF" secondAttribute="centerX" constant="8.5" id="7ww-CH-bpG"/>
+                            <constraint firstAttribute="centerY" secondItem="kQ8-cM-bYB" secondAttribute="centerY" constant="0.5" id="Keg-gN-HJw"/>
+                            <constraint firstAttribute="centerY" secondItem="3CS-xp-g3h" secondAttribute="centerY" constant="59" id="cz9-Y3-zeB"/>
+                            <constraint firstAttribute="centerX" secondItem="kQ8-cM-bYB" secondAttribute="centerX" constant="11" id="fFV-Vb-ZpT"/>
+                            <constraint firstAttribute="centerY" secondItem="OmY-Wr-9UF" secondAttribute="centerY" constant="141" id="kKB-1x-BkI"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="EvenEntry" destination="OmY-Wr-9UF" id="yIf-qC-C3m"/>
+                        <outlet property="EvenOutputLabel" destination="kQ8-cM-bYB" id="qkL-Ni-l7U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GNA-et-oO5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

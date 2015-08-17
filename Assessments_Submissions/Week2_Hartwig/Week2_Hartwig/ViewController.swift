@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var ResponsibilityLabel: UILabel!
     @IBOutlet weak var SumField: UILabel!
     @IBOutlet weak var AddField: UITextField!
+    @IBOutlet weak var EvenEntry: UITextField!
+    @IBOutlet weak var EvenOutputLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,5 +60,14 @@ class ViewController: UIViewController {
        
     }
 
+    @IBAction func isEven(sender: AnyObject) {
+        if EvenEntry != nil {
+            if EvenEntry.text!.toInt()! % 2 == 0 {
+                EvenOutputLabel.text = "Your Number is Even!"
+            } else {
+                EvenOutputLabel.text = "Your Number is Odd"
+            }
+        }
+    }
 }
 
