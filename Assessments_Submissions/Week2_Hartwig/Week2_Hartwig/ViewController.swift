@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var HelloField: UILabel!
+    @IBOutlet weak var NameField: UITextField!
+    @IBOutlet weak var AgeField: UITextField!
+    @IBOutlet weak var HelloNameAge: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,8 +24,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func helloWorld(sender: AnyObject) {
-        HelloField.text = "Hello World!"
+    @IBAction func giveAHello(sender: AnyObject) {
+        if NameField != nil {
+            HelloNameAge.text = "Hello \(NameField.text), your age is \(AgeField.text) years old!"
+            println(HelloNameAge)
+        }
     }
 
 }

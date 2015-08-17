@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5D25EFE1B8159F1007CD94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D25EFD1B8159F1007CD94C /* AppDelegate.swift */; };
-		E5D25F011B8159F1007CD94C /* Week2_Hartwig.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5D25EFF1B8159F1007CD94C /* Week2_Hartwig.xcdatamodeld */; };
-		E5D25F031B8159F1007CD94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D25F021B8159F1007CD94C /* ViewController.swift */; };
-		E5D25F061B8159F1007CD94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D25F041B8159F1007CD94C /* Main.storyboard */; };
-		E5D25F081B8159F1007CD94C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D25F071B8159F1007CD94C /* Images.xcassets */; };
-		E5D25F0B1B8159F1007CD94C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5D25F091B8159F1007CD94C /* LaunchScreen.xib */; };
-		E5D25F171B8159F1007CD94C /* Week2_HartwigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D25F161B8159F1007CD94C /* Week2_HartwigTests.swift */; };
+		E5D25F2F1B81645F007CD94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D25F2E1B81645F007CD94C /* AppDelegate.swift */; };
+		E5D25F321B81645F007CD94C /* Week2_Hartwig.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5D25F301B81645F007CD94C /* Week2_Hartwig.xcdatamodeld */; };
+		E5D25F341B81645F007CD94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D25F331B81645F007CD94C /* ViewController.swift */; };
+		E5D25F371B81645F007CD94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D25F351B81645F007CD94C /* Main.storyboard */; };
+		E5D25F391B81645F007CD94C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D25F381B81645F007CD94C /* Images.xcassets */; };
+		E5D25F3C1B81645F007CD94C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5D25F3A1B81645F007CD94C /* LaunchScreen.xib */; };
+		E5D25F481B81645F007CD94C /* Week2_HartwigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D25F471B81645F007CD94C /* Week2_HartwigTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E5D25F111B8159F1007CD94C /* PBXContainerItemProxy */ = {
+		E5D25F421B81645F007CD94C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E5D25EF01B8159F1007CD94C /* Project object */;
+			containerPortal = E5D25F211B81645F007CD94C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5D25EF71B8159F1007CD94C;
+			remoteGlobalIDString = E5D25F281B81645F007CD94C;
 			remoteInfo = Week2_Hartwig;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E5D25EF81B8159F1007CD94C /* Week2_Hartwig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2_Hartwig.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5D25EFC1B8159F1007CD94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5D25EFD1B8159F1007CD94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5D25F001B8159F1007CD94C /* Week2_Hartwig.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Week2_Hartwig.xcdatamodel; sourceTree = "<group>"; };
-		E5D25F021B8159F1007CD94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5D25F051B8159F1007CD94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E5D25F071B8159F1007CD94C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E5D25F0A1B8159F1007CD94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E5D25F101B8159F1007CD94C /* Week2_HartwigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2_HartwigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5D25F151B8159F1007CD94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5D25F161B8159F1007CD94C /* Week2_HartwigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_HartwigTests.swift; sourceTree = "<group>"; };
+		E5D25F291B81645F007CD94C /* Week2_Hartwig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2_Hartwig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D25F2D1B81645F007CD94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D25F2E1B81645F007CD94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5D25F311B81645F007CD94C /* Week2_Hartwig.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Week2_Hartwig.xcdatamodel; sourceTree = "<group>"; };
+		E5D25F331B81645F007CD94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5D25F361B81645F007CD94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5D25F381B81645F007CD94C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5D25F3B1B81645F007CD94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E5D25F411B81645F007CD94C /* Week2_HartwigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2_HartwigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D25F461B81645F007CD94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D25F471B81645F007CD94C /* Week2_HartwigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_HartwigTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E5D25EF51B8159F1007CD94C /* Frameworks */ = {
+		E5D25F261B81645F007CD94C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5D25F0D1B8159F1007CD94C /* Frameworks */ = {
+		E5D25F3E1B81645F007CD94C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,59 +58,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E5D25EEF1B8159F1007CD94C = {
+		E5D25F201B81645F007CD94C = {
 			isa = PBXGroup;
 			children = (
-				E5D25EFA1B8159F1007CD94C /* Week2_Hartwig */,
-				E5D25F131B8159F1007CD94C /* Week2_HartwigTests */,
-				E5D25EF91B8159F1007CD94C /* Products */,
+				E5D25F2B1B81645F007CD94C /* Week2_Hartwig */,
+				E5D25F441B81645F007CD94C /* Week2_HartwigTests */,
+				E5D25F2A1B81645F007CD94C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E5D25EF91B8159F1007CD94C /* Products */ = {
+		E5D25F2A1B81645F007CD94C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5D25EF81B8159F1007CD94C /* Week2_Hartwig.app */,
-				E5D25F101B8159F1007CD94C /* Week2_HartwigTests.xctest */,
+				E5D25F291B81645F007CD94C /* Week2_Hartwig.app */,
+				E5D25F411B81645F007CD94C /* Week2_HartwigTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5D25EFA1B8159F1007CD94C /* Week2_Hartwig */ = {
+		E5D25F2B1B81645F007CD94C /* Week2_Hartwig */ = {
 			isa = PBXGroup;
 			children = (
-				E5D25EFD1B8159F1007CD94C /* AppDelegate.swift */,
-				E5D25F021B8159F1007CD94C /* ViewController.swift */,
-				E5D25F041B8159F1007CD94C /* Main.storyboard */,
-				E5D25F071B8159F1007CD94C /* Images.xcassets */,
-				E5D25F091B8159F1007CD94C /* LaunchScreen.xib */,
-				E5D25EFF1B8159F1007CD94C /* Week2_Hartwig.xcdatamodeld */,
-				E5D25EFB1B8159F1007CD94C /* Supporting Files */,
+				E5D25F2E1B81645F007CD94C /* AppDelegate.swift */,
+				E5D25F331B81645F007CD94C /* ViewController.swift */,
+				E5D25F351B81645F007CD94C /* Main.storyboard */,
+				E5D25F381B81645F007CD94C /* Images.xcassets */,
+				E5D25F3A1B81645F007CD94C /* LaunchScreen.xib */,
+				E5D25F301B81645F007CD94C /* Week2_Hartwig.xcdatamodeld */,
+				E5D25F2C1B81645F007CD94C /* Supporting Files */,
 			);
 			path = Week2_Hartwig;
 			sourceTree = "<group>";
 		};
-		E5D25EFB1B8159F1007CD94C /* Supporting Files */ = {
+		E5D25F2C1B81645F007CD94C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5D25EFC1B8159F1007CD94C /* Info.plist */,
+				E5D25F2D1B81645F007CD94C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E5D25F131B8159F1007CD94C /* Week2_HartwigTests */ = {
+		E5D25F441B81645F007CD94C /* Week2_HartwigTests */ = {
 			isa = PBXGroup;
 			children = (
-				E5D25F161B8159F1007CD94C /* Week2_HartwigTests.swift */,
-				E5D25F141B8159F1007CD94C /* Supporting Files */,
+				E5D25F471B81645F007CD94C /* Week2_HartwigTests.swift */,
+				E5D25F451B81645F007CD94C /* Supporting Files */,
 			);
 			path = Week2_HartwigTests;
 			sourceTree = "<group>";
 		};
-		E5D25F141B8159F1007CD94C /* Supporting Files */ = {
+		E5D25F451B81645F007CD94C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5D25F151B8159F1007CD94C /* Info.plist */,
+				E5D25F461B81645F007CD94C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,13 +118,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5D25EF71B8159F1007CD94C /* Week2_Hartwig */ = {
+		E5D25F281B81645F007CD94C /* Week2_Hartwig */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5D25F1A1B8159F1007CD94C /* Build configuration list for PBXNativeTarget "Week2_Hartwig" */;
+			buildConfigurationList = E5D25F4B1B81645F007CD94C /* Build configuration list for PBXNativeTarget "Week2_Hartwig" */;
 			buildPhases = (
-				E5D25EF41B8159F1007CD94C /* Sources */,
-				E5D25EF51B8159F1007CD94C /* Frameworks */,
-				E5D25EF61B8159F1007CD94C /* Resources */,
+				E5D25F251B81645F007CD94C /* Sources */,
+				E5D25F261B81645F007CD94C /* Frameworks */,
+				E5D25F271B81645F007CD94C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +132,46 @@
 			);
 			name = Week2_Hartwig;
 			productName = Week2_Hartwig;
-			productReference = E5D25EF81B8159F1007CD94C /* Week2_Hartwig.app */;
+			productReference = E5D25F291B81645F007CD94C /* Week2_Hartwig.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E5D25F0F1B8159F1007CD94C /* Week2_HartwigTests */ = {
+		E5D25F401B81645F007CD94C /* Week2_HartwigTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5D25F1D1B8159F1007CD94C /* Build configuration list for PBXNativeTarget "Week2_HartwigTests" */;
+			buildConfigurationList = E5D25F4E1B81645F007CD94C /* Build configuration list for PBXNativeTarget "Week2_HartwigTests" */;
 			buildPhases = (
-				E5D25F0C1B8159F1007CD94C /* Sources */,
-				E5D25F0D1B8159F1007CD94C /* Frameworks */,
-				E5D25F0E1B8159F1007CD94C /* Resources */,
+				E5D25F3D1B81645F007CD94C /* Sources */,
+				E5D25F3E1B81645F007CD94C /* Frameworks */,
+				E5D25F3F1B81645F007CD94C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E5D25F121B8159F1007CD94C /* PBXTargetDependency */,
+				E5D25F431B81645F007CD94C /* PBXTargetDependency */,
 			);
 			name = Week2_HartwigTests;
 			productName = Week2_HartwigTests;
-			productReference = E5D25F101B8159F1007CD94C /* Week2_HartwigTests.xctest */;
+			productReference = E5D25F411B81645F007CD94C /* Week2_HartwigTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E5D25EF01B8159F1007CD94C /* Project object */ = {
+		E5D25F211B81645F007CD94C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Matthew Hartwig";
 				TargetAttributes = {
-					E5D25EF71B8159F1007CD94C = {
+					E5D25F281B81645F007CD94C = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					E5D25F0F1B8159F1007CD94C = {
+					E5D25F401B81645F007CD94C = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = E5D25EF71B8159F1007CD94C;
+						TestTargetID = E5D25F281B81645F007CD94C;
 					};
 				};
 			};
-			buildConfigurationList = E5D25EF31B8159F1007CD94C /* Build configuration list for PBXProject "Week2_Hartwig" */;
+			buildConfigurationList = E5D25F241B81645F007CD94C /* Build configuration list for PBXProject "Week2_Hartwig" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +179,29 @@
 				en,
 				Base,
 			);
-			mainGroup = E5D25EEF1B8159F1007CD94C;
-			productRefGroup = E5D25EF91B8159F1007CD94C /* Products */;
+			mainGroup = E5D25F201B81645F007CD94C;
+			productRefGroup = E5D25F2A1B81645F007CD94C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5D25EF71B8159F1007CD94C /* Week2_Hartwig */,
-				E5D25F0F1B8159F1007CD94C /* Week2_HartwigTests */,
+				E5D25F281B81645F007CD94C /* Week2_Hartwig */,
+				E5D25F401B81645F007CD94C /* Week2_HartwigTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E5D25EF61B8159F1007CD94C /* Resources */ = {
+		E5D25F271B81645F007CD94C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D25F061B8159F1007CD94C /* Main.storyboard in Resources */,
-				E5D25F0B1B8159F1007CD94C /* LaunchScreen.xib in Resources */,
-				E5D25F081B8159F1007CD94C /* Images.xcassets in Resources */,
+				E5D25F371B81645F007CD94C /* Main.storyboard in Resources */,
+				E5D25F3C1B81645F007CD94C /* LaunchScreen.xib in Resources */,
+				E5D25F391B81645F007CD94C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5D25F0E1B8159F1007CD94C /* Resources */ = {
+		E5D25F3F1B81645F007CD94C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +211,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E5D25EF41B8159F1007CD94C /* Sources */ = {
+		E5D25F251B81645F007CD94C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D25F031B8159F1007CD94C /* ViewController.swift in Sources */,
-				E5D25EFE1B8159F1007CD94C /* AppDelegate.swift in Sources */,
-				E5D25F011B8159F1007CD94C /* Week2_Hartwig.xcdatamodeld in Sources */,
+				E5D25F341B81645F007CD94C /* ViewController.swift in Sources */,
+				E5D25F2F1B81645F007CD94C /* AppDelegate.swift in Sources */,
+				E5D25F321B81645F007CD94C /* Week2_Hartwig.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5D25F0C1B8159F1007CD94C /* Sources */ = {
+		E5D25F3D1B81645F007CD94C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D25F171B8159F1007CD94C /* Week2_HartwigTests.swift in Sources */,
+				E5D25F481B81645F007CD94C /* Week2_HartwigTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E5D25F121B8159F1007CD94C /* PBXTargetDependency */ = {
+		E5D25F431B81645F007CD94C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5D25EF71B8159F1007CD94C /* Week2_Hartwig */;
-			targetProxy = E5D25F111B8159F1007CD94C /* PBXContainerItemProxy */;
+			target = E5D25F281B81645F007CD94C /* Week2_Hartwig */;
+			targetProxy = E5D25F421B81645F007CD94C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5D25F041B8159F1007CD94C /* Main.storyboard */ = {
+		E5D25F351B81645F007CD94C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E5D25F051B8159F1007CD94C /* Base */,
+				E5D25F361B81645F007CD94C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E5D25F091B8159F1007CD94C /* LaunchScreen.xib */ = {
+		E5D25F3A1B81645F007CD94C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E5D25F0A1B8159F1007CD94C /* Base */,
+				E5D25F3B1B81645F007CD94C /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E5D25F181B8159F1007CD94C /* Debug */ = {
+		E5D25F491B81645F007CD94C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		E5D25F191B8159F1007CD94C /* Release */ = {
+		E5D25F4A1B81645F007CD94C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,7 +340,7 @@
 			};
 			name = Release;
 		};
-		E5D25F1B1B8159F1007CD94C /* Debug */ = {
+		E5D25F4C1B81645F007CD94C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -350,7 +350,7 @@
 			};
 			name = Debug;
 		};
-		E5D25F1C1B8159F1007CD94C /* Release */ = {
+		E5D25F4D1B81645F007CD94C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -360,7 +360,7 @@
 			};
 			name = Release;
 		};
-		E5D25F1E1B8159F1007CD94C /* Debug */ = {
+		E5D25F4F1B81645F007CD94C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -379,7 +379,7 @@
 			};
 			name = Debug;
 		};
-		E5D25F1F1B8159F1007CD94C /* Release */ = {
+		E5D25F501B81645F007CD94C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -397,45 +397,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5D25EF31B8159F1007CD94C /* Build configuration list for PBXProject "Week2_Hartwig" */ = {
+		E5D25F241B81645F007CD94C /* Build configuration list for PBXProject "Week2_Hartwig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5D25F181B8159F1007CD94C /* Debug */,
-				E5D25F191B8159F1007CD94C /* Release */,
+				E5D25F491B81645F007CD94C /* Debug */,
+				E5D25F4A1B81645F007CD94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5D25F1A1B8159F1007CD94C /* Build configuration list for PBXNativeTarget "Week2_Hartwig" */ = {
+		E5D25F4B1B81645F007CD94C /* Build configuration list for PBXNativeTarget "Week2_Hartwig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5D25F1B1B8159F1007CD94C /* Debug */,
-				E5D25F1C1B8159F1007CD94C /* Release */,
+				E5D25F4C1B81645F007CD94C /* Debug */,
+				E5D25F4D1B81645F007CD94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		E5D25F1D1B8159F1007CD94C /* Build configuration list for PBXNativeTarget "Week2_HartwigTests" */ = {
+		E5D25F4E1B81645F007CD94C /* Build configuration list for PBXNativeTarget "Week2_HartwigTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5D25F1E1B8159F1007CD94C /* Debug */,
-				E5D25F1F1B8159F1007CD94C /* Release */,
+				E5D25F4F1B81645F007CD94C /* Debug */,
+				E5D25F501B81645F007CD94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E5D25EFF1B8159F1007CD94C /* Week2_Hartwig.xcdatamodeld */ = {
+		E5D25F301B81645F007CD94C /* Week2_Hartwig.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E5D25F001B8159F1007CD94C /* Week2_Hartwig.xcdatamodel */,
+				E5D25F311B81645F007CD94C /* Week2_Hartwig.xcdatamodel */,
 			);
-			currentVersion = E5D25F001B8159F1007CD94C /* Week2_Hartwig.xcdatamodel */;
+			currentVersion = E5D25F311B81645F007CD94C /* Week2_Hartwig.xcdatamodel */;
 			path = Week2_Hartwig.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = E5D25EF01B8159F1007CD94C /* Project object */;
+	rootObject = E5D25F211B81645F007CD94C /* Project object */;
 }

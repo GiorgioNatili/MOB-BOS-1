@@ -16,17 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F27-cZ-FZh">
-                                <rect key="frame" x="264" y="163" width="46" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Asf-ow-yhn">
+                                <rect key="frame" x="232" y="106" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wgg-NH-Fps">
+                                <rect key="frame" x="232" y="172" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q94-RF-ahR">
+                                <rect key="frame" x="250" y="263" width="46" height="30"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="helloWorld:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GKL-Sk-5Ym"/>
+                                    <action selector="giveAHello:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="f13-Mv-XGc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4d-n5-p50">
-                                <rect key="frame" x="258" y="239" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpO-Ko-QbD">
+                                <rect key="frame" x="252" y="343" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -34,14 +44,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="F27-cZ-FZh" secondAttribute="centerY" constant="122" id="Pqq-EU-D5S"/>
-                            <constraint firstAttribute="centerX" secondItem="F27-cZ-FZh" secondAttribute="centerX" constant="13" id="ZJq-3t-T5m"/>
-                            <constraint firstAttribute="centerX" secondItem="h4d-n5-p50" secondAttribute="centerX" constant="21" id="l0R-FU-Xlj"/>
-                            <constraint firstAttribute="centerY" secondItem="h4d-n5-p50" secondAttribute="centerY" constant="50.5" id="tiy-8W-0xh"/>
+                            <constraint firstAttribute="centerY" secondItem="Wgg-NH-Fps" secondAttribute="centerY" constant="113" id="2Fq-YG-Mq1"/>
+                            <constraint firstAttribute="centerX" secondItem="Wgg-NH-Fps" secondAttribute="centerX" constant="19.5" id="2y6-yE-WHy"/>
+                            <constraint firstAttribute="centerY" secondItem="fpO-Ko-QbD" secondAttribute="centerY" constant="-53.5" id="OiM-sf-hI4"/>
+                            <constraint firstAttribute="centerY" secondItem="q94-RF-ahR" secondAttribute="centerY" constant="22" id="UMM-nM-Vtf"/>
+                            <constraint firstAttribute="centerX" secondItem="fpO-Ko-QbD" secondAttribute="centerX" constant="27" id="XPX-Zx-pLn"/>
+                            <constraint firstAttribute="centerX" secondItem="q94-RF-ahR" secondAttribute="centerX" constant="27" id="aA8-tG-aMe"/>
+                            <constraint firstAttribute="centerY" secondItem="Asf-ow-yhn" secondAttribute="centerY" constant="179" id="boN-YE-29I"/>
+                            <constraint firstAttribute="centerX" secondItem="Asf-ow-yhn" secondAttribute="centerX" constant="19.5" id="qyx-Rv-vpk"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="HelloField" destination="h4d-n5-p50" id="Jhs-HT-EL7"/>
+                        <outlet property="AgeField" destination="Wgg-NH-Fps" id="d4o-aY-A5Z"/>
+                        <outlet property="HelloNameAge" destination="fpO-Ko-QbD" id="dR2-2D-v8Y"/>
+                        <outlet property="NameField" destination="Asf-ow-yhn" id="pim-eC-cIm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
