@@ -17,8 +17,10 @@ class SumViewController: UIViewController {
         var lastSum = sumTextLabel.text?.toInt()!
         var newNum = numTextField.text.toInt()!
         var myNum = Total(sum: lastSum!)
+        myNum.addNum(newNum)
+        sumTextLabel.text = String(myNum.realSum)
         
-        sumTextLabel.text = String(myNum.addNum(newNum))
+        numTextField.text = ""
     }
     
     

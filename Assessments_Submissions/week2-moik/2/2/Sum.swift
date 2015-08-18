@@ -26,9 +26,9 @@ class Total {
     }
     
     func addNum (lastNum:Int) -> Int {
-        var newSum : Int
-        newSum = sum + lastNum
-        
-        return newSum
+        //var newSum : Int
+        //newSum = sum + lastNum
+        sum += lastNum
+        return sum
     }
 }
