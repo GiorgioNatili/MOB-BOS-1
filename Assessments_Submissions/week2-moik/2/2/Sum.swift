@@ -9,10 +9,20 @@
 import Foundation
 
 class Total {
-    var sum : Int
+    private var sum : Int
     
     init (sum:Int) {
         self.sum = sum
+    }
+    
+    var realSum: Int {
+        get {
+            return sum
+        }
+        
+        set {
+            sum = newValue
+        }
     }
     
     func addNum (lastNum:Int) -> Int {

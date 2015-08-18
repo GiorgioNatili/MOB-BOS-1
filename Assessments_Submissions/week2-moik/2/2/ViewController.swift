@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         var newPerson = Person(name: nameField.text, age: age)
         
         textField.text = "Results: \(newPerson.checkAge(age))"
-        textField.text = "Hello \(newPerson.name) you are \(newPerson.age!) years old!"
+        textField.text = "Hello \(newPerson.realName) you are \(newPerson.realAge!) years old!"
         
     }
     
