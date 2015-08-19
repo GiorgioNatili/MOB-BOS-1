@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBE676031B82BD0A00971450 /* AgeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE676021B82BD0A00971450 /* AgeOutput.swift */; };
 		DBE7AD671B818393008A558C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE7AD661B818393008A558C /* AppDelegate.swift */; };
 		DBE7AD691B818393008A558C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE7AD681B818393008A558C /* ViewController.swift */; };
 		DBE7AD6C1B818393008A558C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE7AD6A1B818393008A558C /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DBE676021B82BD0A00971450 /* AgeOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgeOutput.swift; path = ../AgeOutput.swift; sourceTree = "<group>"; };
 		DBE7AD631B818393008A558C /* assignment1_regalado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment1_regalado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE7AD661B818393008A558C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE7AD681B818393008A558C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				DBE7AD751B818393008A558C /* Info.plist */,
 				DBE7AD6D1B818393008A558C /* assignment1_regalado.xcdatamodeld */,
 				DBE7AD971B8184CC008A558C /* nameAgeViewController.swift */,
+				DBE676021B82BD0A00971450 /* AgeOutput.swift */,
 				DBE7AD991B8184DD008A558C /* evenOddViewController.swift */,
 				DBE7AD9B1B8198AD008A558C /* SummationViewController.swift */,
 			);
@@ -271,6 +274,7 @@
 				DBE7AD691B818393008A558C /* ViewController.swift in Sources */,
 				DBE7AD9C1B8198AD008A558C /* SummationViewController.swift in Sources */,
 				DBE7AD6F1B818393008A558C /* assignment1_regalado.xcdatamodeld in Sources */,
+				DBE676031B82BD0A00971450 /* AgeOutput.swift in Sources */,
 				DBE7AD671B818393008A558C /* AppDelegate.swift in Sources */,
 				DBE7AD981B8184CC008A558C /* nameAgeViewController.swift in Sources */,
 			);
@@ -499,6 +503,7 @@
 				DBE7AD901B818393008A558C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBE7AD911B818393008A558C /* Build configuration list for PBXNativeTarget "assignment1_regaladoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +512,7 @@
 				DBE7AD931B818393008A558C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBE7AD941B818393008A558C /* Build configuration list for PBXNativeTarget "assignment1_regaladoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				DBE7AD961B818393008A558C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

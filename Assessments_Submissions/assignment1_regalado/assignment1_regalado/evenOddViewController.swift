@@ -42,6 +42,8 @@ class evenOddViewController: UIViewController {
         let number = numInput.text
         let numInt = Int(number!)
         
+        //private let number = 0
+        
         
         if numInt! % 2 == 0 {
             numOutput.text = "This number is even!"

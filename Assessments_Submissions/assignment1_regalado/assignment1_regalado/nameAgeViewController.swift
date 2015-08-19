@@ -9,12 +9,16 @@
 import UIKit
 
 class nameAgeViewController: UIViewController {
-
+    
+    
+    //MARK: variables
+    
     @IBOutlet weak var nameText: UITextField!
     @IBOutlet weak var ageText:  UITextField!
     @IBOutlet weak var nameAgeOutput: UILabel!
     @IBOutlet weak var agePrivilege: UILabel!
-    
+
+    // MARK: overloads
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,31 +40,14 @@ class nameAgeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
 
     
-    @IBAction func submitNameAge(sender: AnyObject) {
+    @IBAction func submitNameAge(sender: AnyObject) {        
+        let myAgeOutput = AgeOutput(finalName: nameText.text!, finalAge: ageText.text!)
         
-        let name = nameText.text
-        let age = ageText.text
-        
-        if !name!.isEmpty && !age!.isEmpty {
-            nameAgeOutput.text = "Hello \(name!), you are \(age!) years old!"
-
-            //converts age string into int
-            let ageInt = Int(age!)
-            
-            if ageInt >= 21 {
-                agePrivilege.text = "You can drink."
-            } else if ageInt >= 18 {
-                agePrivilege.text = "You can vote."
-            } else if ageInt >= 16 {
-               agePrivilege.text = "You can drive."
-            } else if ageInt < 16 {
-                agePrivilege.text = ""
-            }
-        } else {
-            nameAgeOutput.text = "hello world!"
-            agePrivilege.text = ""
-        }
+        nameAgeOutput.text = myAgeOutput.createOutput()
+        agePrivilege.text = myAgeOutput.ageMessageOutput()
     }
 }

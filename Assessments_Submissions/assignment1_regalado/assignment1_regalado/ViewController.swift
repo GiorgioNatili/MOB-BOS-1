@@ -21,9 +21,5 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func showMessage(sender: AnyObject) {
-        messageOutput.text = "hello world!"
-    }
-
 }
 
