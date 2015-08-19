@@ -45,6 +45,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10C-9O-PjQ">
+                                <rect key="frame" x="88" y="431" width="424" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="424" id="IqI-54-Eks"/>
+                                    <constraint firstAttribute="height" constant="60" id="woS-PZ-Jae"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -55,7 +65,10 @@
                             <constraint firstAttribute="centerY" secondItem="57K-2e-LNg" secondAttribute="centerY" constant="-43" id="LhD-Vd-4sp"/>
                             <constraint firstItem="3ot-ZC-Lx0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="MPq-Oc-2Yz"/>
                             <constraint firstAttribute="centerY" secondItem="pPh-fb-rqr" secondAttribute="centerY" constant="65" id="Phn-fB-v1H"/>
+                            <constraint firstAttribute="centerY" secondItem="10C-9O-PjQ" secondAttribute="centerY" constant="-161" id="SFJ-Ym-ecQ"/>
                             <constraint firstItem="pPh-fb-rqr" firstAttribute="top" secondItem="3ot-ZC-Lx0" secondAttribute="bottom" constant="32" id="XOZ-W4-8Bz"/>
+                            <constraint firstAttribute="centerX" secondItem="10C-9O-PjQ" secondAttribute="centerX" id="bqs-Ub-Zra"/>
+                            <constraint firstItem="10C-9O-PjQ" firstAttribute="top" secondItem="57K-2e-LNg" secondAttribute="bottom" constant="68" id="f9I-pB-NKV"/>
                             <constraint firstAttribute="centerY" secondItem="3ot-ZC-Lx0" secondAttribute="centerY" constant="127" id="ice-3q-qtG"/>
                             <constraint firstAttribute="centerX" secondItem="57K-2e-LNg" secondAttribute="centerX" constant="-0.5" id="kc4-su-vab"/>
                             <constraint firstItem="5ua-Qr-bkJ" firstAttribute="trailing" secondItem="pPh-fb-rqr" secondAttribute="trailing" id="otF-VF-nvt"/>
@@ -71,6 +84,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="ageField" destination="5ua-Qr-bkJ" id="EzU-4f-jHU"/>
+                        <outlet property="messageLabel" destination="10C-9O-PjQ" id="OZ6-Xr-YQK"/>
                         <outlet property="nameField" destination="pPh-fb-rqr" id="Iw8-9o-4co"/>
                         <outlet property="textField" destination="3ot-ZC-Lx0" id="H1q-2h-eIN"/>
                     </connections>

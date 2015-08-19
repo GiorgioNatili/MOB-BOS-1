@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var ageField: UITextField!
-    
+    @IBOutlet weak var messageLabel: UILabel!
     
     
     @IBAction func tapButton(sender: AnyObject) {
@@ -23,9 +23,8 @@ class ViewController: UIViewController {
         var age = ageField.text.toInt()!
         var newPerson = Person(name: nameField.text, age: age)
         
-        textField.text = "Results: \(newPerson.checkAge(age))"
+        messageLabel.text = "Results: \(newPerson.checkAge(age))"
         textField.text = "Hello \(newPerson.realName) you are \(newPerson.realAge!) years old!"
-        
     }
     
 
