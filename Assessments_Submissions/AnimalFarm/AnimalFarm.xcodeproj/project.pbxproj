@@ -15,6 +15,7 @@
 		DBA9810D1B91F2490069E0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA9810B1B91F2490069E0C8 /* LaunchScreen.storyboard */; };
 		DBA981181B91F2490069E0C8 /* AnimalFarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA981171B91F2490069E0C8 /* AnimalFarmTests.swift */; };
 		DBA981231B91F2490069E0C8 /* AnimalFarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA981221B91F2490069E0C8 /* AnimalFarmUITests.swift */; };
+		DBFC44DB1B93BBBB00692C2F /* animalFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC44DA1B93BBBB00692C2F /* animalFarm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DBA9811E1B91F2490069E0C8 /* AnimalFarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalFarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA981221B91F2490069E0C8 /* AnimalFarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFarmUITests.swift; sourceTree = "<group>"; };
 		DBA981241B91F2490069E0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFC44DA1B93BBBB00692C2F /* animalFarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animalFarm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				DBA980FF1B91F2490069E0C8 /* AppDelegate.swift */,
 				DBA981011B91F2490069E0C8 /* ViewController.swift */,
+				DBFC44DA1B93BBBB00692C2F /* animalFarm.swift */,
 				DBA981031B91F2490069E0C8 /* Main.storyboard */,
 				DBA981091B91F2490069E0C8 /* Assets.xcassets */,
 				DBA9810B1B91F2490069E0C8 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				DBA981081B91F2490069E0C8 /* AnimalFarm.xcdatamodeld in Sources */,
 				DBA981021B91F2490069E0C8 /* ViewController.swift in Sources */,
 				DBA981001B91F2490069E0C8 /* AppDelegate.swift in Sources */,
+				DBFC44DB1B93BBBB00692C2F /* animalFarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +491,7 @@
 				DBA981291B91F2490069E0C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBA9812A1B91F2490069E0C8 /* Build configuration list for PBXNativeTarget "AnimalFarmTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				DBA9812C1B91F2490069E0C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBA9812D1B91F2490069E0C8 /* Build configuration list for PBXNativeTarget "AnimalFarmUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				DBA9812F1B91F2490069E0C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
