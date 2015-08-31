@@ -60,7 +60,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let actionSheetController: UIAlertController = UIAlertController(title: "Animal Added", message: "You've added a(n) \(animalNameField.text.capitalizedString)!", preferredStyle: .ActionSheet)
             
             let dismissAction: UIAlertAction = UIAlertAction(title: "Cool dude!", style: .Cancel) { action -> Void in
-                //Just dismiss the action sheet
+                self.animals.append(self.animalNameField.text.capitalizedString)
+                self.animalNameField.text = ""
+                self.animalView.reloadData()
             }
             actionSheetController.addAction(dismissAction)
             
