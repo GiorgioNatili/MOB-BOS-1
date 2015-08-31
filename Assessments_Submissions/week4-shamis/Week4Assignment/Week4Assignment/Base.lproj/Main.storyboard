@@ -42,10 +42,30 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DxJ-fW-cXi">
+                                <rect key="frame" x="16" y="28" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZz-2P-lH7">
+                                <rect key="frame" x="16" y="66" width="97" height="30"/>
+                                <state key="normal" title="Add Animals">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addAnimalButton:" destination="39W-l2-Br8" eventType="touchUpInside" id="Zxd-IH-4IE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DxJ-fW-cXi" firstAttribute="top" secondItem="tda-eH-hdO" secondAttribute="bottom" constant="8" id="JVM-4A-Pym"/>
+                            <constraint firstItem="DxJ-fW-cXi" firstAttribute="leading" secondItem="zhO-XG-hdf" secondAttribute="leadingMargin" id="lyX-Wa-jo4"/>
+                            <constraint firstItem="DxJ-fW-cXi" firstAttribute="centerX" secondItem="ZZz-2P-lH7" secondAttribute="centerX" id="vge-Ha-jgg"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="animalNameField" destination="DxJ-fW-cXi" id="qjb-qb-Xd0"/>
                         <outlet property="animalView" destination="fd9-9L-LLh" id="pkd-hc-POP"/>
                     </connections>
                 </viewController>

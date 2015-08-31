@@ -51,5 +51,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let row = indexPath.row
         println(animals[row])
     }
+
+    @IBOutlet weak var animalNameField: UITextField!
+    
+    @IBAction func addAnimalButton(sender: AnyObject) {
+        if animalNameField.text != "" {
+            
+            let actionSheetController: UIAlertController = UIAlertController(title: "Animal Added", message: "You've added a(n) \(animalNameField.text.capitalizedString)!", preferredStyle: .ActionSheet)
+            
+            let dismissAction: UIAlertAction = UIAlertAction(title: "Cool dude!", style: .Cancel) { action -> Void in
+                //Just dismiss the action sheet
+            }
+            actionSheetController.addAction(dismissAction)
+            
+            actionSheetController.popoverPresentationController?.sourceView = sender as! UIView;
+            self.presentViewController(actionSheetController, animated: true, completion: nil)
+        }
+    }
+    
 }
 
