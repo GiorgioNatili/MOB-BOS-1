@@ -60,9 +60,13 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" title="animal farm" id="YdD-Vq-kCA">
                         <barButtonItem key="rightBarButtonItem" title="add" id="Rxs-bC-ByL"/>
                     </navigationItem>
+=======
+                    <navigationItem key="navigationItem" title="animal farm" id="YdD-Vq-kCA"/>
+>>>>>>> 3725fc590559fd6064f93afdca67d4758f39559e
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoQ-Wt-8bX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
