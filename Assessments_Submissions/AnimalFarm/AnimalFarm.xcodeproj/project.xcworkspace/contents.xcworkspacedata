@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AnimalFarm.xcodeproj">
+      location = "self:animalFarm.xcodeproj">
    </FileRef>
 </Workspace>

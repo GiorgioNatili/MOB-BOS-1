@@ -7,68 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DBA981001B91F2490069E0C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA980FF1B91F2490069E0C8 /* AppDelegate.swift */; };
-		DBA981021B91F2490069E0C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA981011B91F2490069E0C8 /* ViewController.swift */; };
-		DBA981051B91F2490069E0C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA981031B91F2490069E0C8 /* Main.storyboard */; };
-		DBA981081B91F2490069E0C8 /* AnimalFarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBA981061B91F2490069E0C8 /* AnimalFarm.xcdatamodeld */; };
-		DBA9810A1B91F2490069E0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA981091B91F2490069E0C8 /* Assets.xcassets */; };
-		DBA9810D1B91F2490069E0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA9810B1B91F2490069E0C8 /* LaunchScreen.storyboard */; };
-		DBA981181B91F2490069E0C8 /* AnimalFarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA981171B91F2490069E0C8 /* AnimalFarmTests.swift */; };
-		DBA981231B91F2490069E0C8 /* AnimalFarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA981221B91F2490069E0C8 /* AnimalFarmUITests.swift */; };
-		DBFC44DB1B93BBBB00692C2F /* animalFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC44DA1B93BBBB00692C2F /* animalFarm.swift */; };
+		DB2BF9931B9CD05D006A9DAC /* animalNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2BF9921B9CD05D006A9DAC /* animalNameCell.swift */; };
+		DB2BF9951B9CD074006A9DAC /* animalFarmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2BF9941B9CD074006A9DAC /* animalFarmList.swift */; };
+		DBEFD64B1B9CCA9E0045FCD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFD64A1B9CCA9E0045FCD1 /* AppDelegate.swift */; };
+		DBEFD64D1B9CCA9E0045FCD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFD64C1B9CCA9E0045FCD1 /* ViewController.swift */; };
+		DBEFD6501B9CCA9E0045FCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEFD64E1B9CCA9E0045FCD1 /* Main.storyboard */; };
+		DBEFD6531B9CCA9E0045FCD1 /* animalFarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBEFD6511B9CCA9E0045FCD1 /* animalFarm.xcdatamodeld */; };
+		DBEFD6551B9CCA9E0045FCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEFD6541B9CCA9E0045FCD1 /* Assets.xcassets */; };
+		DBEFD6581B9CCA9E0045FCD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEFD6561B9CCA9E0045FCD1 /* LaunchScreen.storyboard */; };
+		DBEFD6631B9CCA9E0045FCD1 /* animalFarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFD6621B9CCA9E0045FCD1 /* animalFarmTests.swift */; };
+		DBEFD66E1B9CCA9E0045FCD1 /* animalFarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFD66D1B9CCA9E0045FCD1 /* animalFarmUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DBA981141B91F2490069E0C8 /* PBXContainerItemProxy */ = {
+		DBEFD65F1B9CCA9E0045FCD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DBA980F41B91F2490069E0C8 /* Project object */;
+			containerPortal = DBEFD63F1B9CCA9E0045FCD1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DBA980FB1B91F2490069E0C8;
-			remoteInfo = AnimalFarm;
+			remoteGlobalIDString = DBEFD6461B9CCA9E0045FCD1;
+			remoteInfo = animalFarm;
 		};
-		DBA9811F1B91F2490069E0C8 /* PBXContainerItemProxy */ = {
+		DBEFD66A1B9CCA9E0045FCD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DBA980F41B91F2490069E0C8 /* Project object */;
+			containerPortal = DBEFD63F1B9CCA9E0045FCD1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DBA980FB1B91F2490069E0C8;
-			remoteInfo = AnimalFarm;
+			remoteGlobalIDString = DBEFD6461B9CCA9E0045FCD1;
+			remoteInfo = animalFarm;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DBA980FC1B91F2490069E0C8 /* AnimalFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBA980FF1B91F2490069E0C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBA981011B91F2490069E0C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DBA981041B91F2490069E0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DBA981071B91F2490069E0C8 /* AnimalFarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimalFarm.xcdatamodel; sourceTree = "<group>"; };
-		DBA981091B91F2490069E0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DBA9810C1B91F2490069E0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DBA9810E1B91F2490069E0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBA981131B91F2490069E0C8 /* AnimalFarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalFarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBA981171B91F2490069E0C8 /* AnimalFarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFarmTests.swift; sourceTree = "<group>"; };
-		DBA981191B91F2490069E0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBA9811E1B91F2490069E0C8 /* AnimalFarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalFarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBA981221B91F2490069E0C8 /* AnimalFarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalFarmUITests.swift; sourceTree = "<group>"; };
-		DBA981241B91F2490069E0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBFC44DA1B93BBBB00692C2F /* animalFarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animalFarm.swift; sourceTree = "<group>"; };
+		DB2BF9921B9CD05D006A9DAC /* animalNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animalNameCell.swift; sourceTree = "<group>"; };
+		DB2BF9941B9CD074006A9DAC /* animalFarmList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animalFarmList.swift; sourceTree = "<group>"; };
+		DBEFD6471B9CCA9E0045FCD1 /* animalFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animalFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEFD64A1B9CCA9E0045FCD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBEFD64C1B9CCA9E0045FCD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBEFD64F1B9CCA9E0045FCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBEFD6521B9CCA9E0045FCD1 /* animalFarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = animalFarm.xcdatamodel; sourceTree = "<group>"; };
+		DBEFD6541B9CCA9E0045FCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBEFD6571B9CCA9E0045FCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBEFD6591B9CCA9E0045FCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEFD65E1B9CCA9E0045FCD1 /* animalFarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animalFarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEFD6621B9CCA9E0045FCD1 /* animalFarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalFarmTests.swift; sourceTree = "<group>"; };
+		DBEFD6641B9CCA9E0045FCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEFD6691B9CCA9E0045FCD1 /* animalFarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animalFarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEFD66D1B9CCA9E0045FCD1 /* animalFarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalFarmUITests.swift; sourceTree = "<group>"; };
+		DBEFD66F1B9CCA9E0045FCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DBA980F91B91F2490069E0C8 /* Frameworks */ = {
+		DBEFD6441B9CCA9E0045FCD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA981101B91F2490069E0C8 /* Frameworks */ = {
+		DBEFD65B1B9CCA9E0045FCD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA9811B1B91F2490069E0C8 /* Frameworks */ = {
+		DBEFD6661B9CCA9E0045FCD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,138 +80,147 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DBA980F31B91F2490069E0C8 = {
+		DB2BF9961B9CD1AE006A9DAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DBA980FE1B91F2490069E0C8 /* AnimalFarm */,
-				DBA981161B91F2490069E0C8 /* AnimalFarmTests */,
-				DBA981211B91F2490069E0C8 /* AnimalFarmUITests */,
-				DBA980FD1B91F2490069E0C8 /* Products */,
+				DB2BF9941B9CD074006A9DAC /* animalFarmList.swift */,
+				DB2BF9921B9CD05D006A9DAC /* animalNameCell.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBEFD63E1B9CCA9E0045FCD1 = {
+			isa = PBXGroup;
+			children = (
+				DBEFD6491B9CCA9E0045FCD1 /* animalFarm */,
+				DBEFD6611B9CCA9E0045FCD1 /* animalFarmTests */,
+				DBEFD66C1B9CCA9E0045FCD1 /* animalFarmUITests */,
+				DBEFD6481B9CCA9E0045FCD1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DBA980FD1B91F2490069E0C8 /* Products */ = {
+		DBEFD6481B9CCA9E0045FCD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBA980FC1B91F2490069E0C8 /* AnimalFarm.app */,
-				DBA981131B91F2490069E0C8 /* AnimalFarmTests.xctest */,
-				DBA9811E1B91F2490069E0C8 /* AnimalFarmUITests.xctest */,
+				DBEFD6471B9CCA9E0045FCD1 /* animalFarm.app */,
+				DBEFD65E1B9CCA9E0045FCD1 /* animalFarmTests.xctest */,
+				DBEFD6691B9CCA9E0045FCD1 /* animalFarmUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DBA980FE1B91F2490069E0C8 /* AnimalFarm */ = {
+		DBEFD6491B9CCA9E0045FCD1 /* animalFarm */ = {
 			isa = PBXGroup;
 			children = (
-				DBA980FF1B91F2490069E0C8 /* AppDelegate.swift */,
-				DBA981011B91F2490069E0C8 /* ViewController.swift */,
-				DBFC44DA1B93BBBB00692C2F /* animalFarm.swift */,
-				DBA981031B91F2490069E0C8 /* Main.storyboard */,
-				DBA981091B91F2490069E0C8 /* Assets.xcassets */,
-				DBA9810B1B91F2490069E0C8 /* LaunchScreen.storyboard */,
-				DBA9810E1B91F2490069E0C8 /* Info.plist */,
-				DBA981061B91F2490069E0C8 /* AnimalFarm.xcdatamodeld */,
+				DBEFD64A1B9CCA9E0045FCD1 /* AppDelegate.swift */,
+				DBEFD64C1B9CCA9E0045FCD1 /* ViewController.swift */,
+				DBEFD64E1B9CCA9E0045FCD1 /* Main.storyboard */,
+				DB2BF9961B9CD1AE006A9DAC /* Supporting Files */,
+				DBEFD6541B9CCA9E0045FCD1 /* Assets.xcassets */,
+				DBEFD6561B9CCA9E0045FCD1 /* LaunchScreen.storyboard */,
+				DBEFD6591B9CCA9E0045FCD1 /* Info.plist */,
+				DBEFD6511B9CCA9E0045FCD1 /* animalFarm.xcdatamodeld */,
 			);
-			path = AnimalFarm;
+			path = animalFarm;
 			sourceTree = "<group>";
 		};
-		DBA981161B91F2490069E0C8 /* AnimalFarmTests */ = {
+		DBEFD6611B9CCA9E0045FCD1 /* animalFarmTests */ = {
 			isa = PBXGroup;
 			children = (
-				DBA981171B91F2490069E0C8 /* AnimalFarmTests.swift */,
-				DBA981191B91F2490069E0C8 /* Info.plist */,
+				DBEFD6621B9CCA9E0045FCD1 /* animalFarmTests.swift */,
+				DBEFD6641B9CCA9E0045FCD1 /* Info.plist */,
 			);
-			path = AnimalFarmTests;
+			path = animalFarmTests;
 			sourceTree = "<group>";
 		};
-		DBA981211B91F2490069E0C8 /* AnimalFarmUITests */ = {
+		DBEFD66C1B9CCA9E0045FCD1 /* animalFarmUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DBA981221B91F2490069E0C8 /* AnimalFarmUITests.swift */,
-				DBA981241B91F2490069E0C8 /* Info.plist */,
+				DBEFD66D1B9CCA9E0045FCD1 /* animalFarmUITests.swift */,
+				DBEFD66F1B9CCA9E0045FCD1 /* Info.plist */,
 			);
-			path = AnimalFarmUITests;
+			path = animalFarmUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DBA980FB1B91F2490069E0C8 /* AnimalFarm */ = {
+		DBEFD6461B9CCA9E0045FCD1 /* animalFarm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBA981271B91F2490069E0C8 /* Build configuration list for PBXNativeTarget "AnimalFarm" */;
+			buildConfigurationList = DBEFD6721B9CCA9E0045FCD1 /* Build configuration list for PBXNativeTarget "animalFarm" */;
 			buildPhases = (
-				DBA980F81B91F2490069E0C8 /* Sources */,
-				DBA980F91B91F2490069E0C8 /* Frameworks */,
-				DBA980FA1B91F2490069E0C8 /* Resources */,
+				DBEFD6431B9CCA9E0045FCD1 /* Sources */,
+				DBEFD6441B9CCA9E0045FCD1 /* Frameworks */,
+				DBEFD6451B9CCA9E0045FCD1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AnimalFarm;
-			productName = AnimalFarm;
-			productReference = DBA980FC1B91F2490069E0C8 /* AnimalFarm.app */;
+			name = animalFarm;
+			productName = animalFarm;
+			productReference = DBEFD6471B9CCA9E0045FCD1 /* animalFarm.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DBA981121B91F2490069E0C8 /* AnimalFarmTests */ = {
+		DBEFD65D1B9CCA9E0045FCD1 /* animalFarmTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBA9812A1B91F2490069E0C8 /* Build configuration list for PBXNativeTarget "AnimalFarmTests" */;
+			buildConfigurationList = DBEFD6751B9CCA9E0045FCD1 /* Build configuration list for PBXNativeTarget "animalFarmTests" */;
 			buildPhases = (
-				DBA9810F1B91F2490069E0C8 /* Sources */,
-				DBA981101B91F2490069E0C8 /* Frameworks */,
-				DBA981111B91F2490069E0C8 /* Resources */,
+				DBEFD65A1B9CCA9E0045FCD1 /* Sources */,
+				DBEFD65B1B9CCA9E0045FCD1 /* Frameworks */,
+				DBEFD65C1B9CCA9E0045FCD1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DBA981151B91F2490069E0C8 /* PBXTargetDependency */,
+				DBEFD6601B9CCA9E0045FCD1 /* PBXTargetDependency */,
 			);
-			name = AnimalFarmTests;
-			productName = AnimalFarmTests;
-			productReference = DBA981131B91F2490069E0C8 /* AnimalFarmTests.xctest */;
+			name = animalFarmTests;
+			productName = animalFarmTests;
+			productReference = DBEFD65E1B9CCA9E0045FCD1 /* animalFarmTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DBA9811D1B91F2490069E0C8 /* AnimalFarmUITests */ = {
+		DBEFD6681B9CCA9E0045FCD1 /* animalFarmUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBA9812D1B91F2490069E0C8 /* Build configuration list for PBXNativeTarget "AnimalFarmUITests" */;
+			buildConfigurationList = DBEFD6781B9CCA9E0045FCD1 /* Build configuration list for PBXNativeTarget "animalFarmUITests" */;
 			buildPhases = (
-				DBA9811A1B91F2490069E0C8 /* Sources */,
-				DBA9811B1B91F2490069E0C8 /* Frameworks */,
-				DBA9811C1B91F2490069E0C8 /* Resources */,
+				DBEFD6651B9CCA9E0045FCD1 /* Sources */,
+				DBEFD6661B9CCA9E0045FCD1 /* Frameworks */,
+				DBEFD6671B9CCA9E0045FCD1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DBA981201B91F2490069E0C8 /* PBXTargetDependency */,
+				DBEFD66B1B9CCA9E0045FCD1 /* PBXTargetDependency */,
 			);
-			name = AnimalFarmUITests;
-			productName = AnimalFarmUITests;
-			productReference = DBA9811E1B91F2490069E0C8 /* AnimalFarmUITests.xctest */;
+			name = animalFarmUITests;
+			productName = animalFarmUITests;
+			productReference = DBEFD6691B9CCA9E0045FCD1 /* animalFarmUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DBA980F41B91F2490069E0C8 /* Project object */ = {
+		DBEFD63F1B9CCA9E0045FCD1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Marcy Regalado";
 				TargetAttributes = {
-					DBA980FB1B91F2490069E0C8 = {
+					DBEFD6461B9CCA9E0045FCD1 = {
 						CreatedOnToolsVersion = 7.0;
 					};
-					DBA981121B91F2490069E0C8 = {
+					DBEFD65D1B9CCA9E0045FCD1 = {
 						CreatedOnToolsVersion = 7.0;
-						TestTargetID = DBA980FB1B91F2490069E0C8;
+						TestTargetID = DBEFD6461B9CCA9E0045FCD1;
 					};
-					DBA9811D1B91F2490069E0C8 = {
+					DBEFD6681B9CCA9E0045FCD1 = {
 						CreatedOnToolsVersion = 7.0;
-						TestTargetID = DBA980FB1B91F2490069E0C8;
+						TestTargetID = DBEFD6461B9CCA9E0045FCD1;
 					};
 				};
 			};
-			buildConfigurationList = DBA980F71B91F2490069E0C8 /* Build configuration list for PBXProject "AnimalFarm" */;
+			buildConfigurationList = DBEFD6421B9CCA9E0045FCD1 /* Build configuration list for PBXProject "animalFarm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,37 +228,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DBA980F31B91F2490069E0C8;
-			productRefGroup = DBA980FD1B91F2490069E0C8 /* Products */;
+			mainGroup = DBEFD63E1B9CCA9E0045FCD1;
+			productRefGroup = DBEFD6481B9CCA9E0045FCD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DBA980FB1B91F2490069E0C8 /* AnimalFarm */,
-				DBA981121B91F2490069E0C8 /* AnimalFarmTests */,
-				DBA9811D1B91F2490069E0C8 /* AnimalFarmUITests */,
+				DBEFD6461B9CCA9E0045FCD1 /* animalFarm */,
+				DBEFD65D1B9CCA9E0045FCD1 /* animalFarmTests */,
+				DBEFD6681B9CCA9E0045FCD1 /* animalFarmUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DBA980FA1B91F2490069E0C8 /* Resources */ = {
+		DBEFD6451B9CCA9E0045FCD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA9810D1B91F2490069E0C8 /* LaunchScreen.storyboard in Resources */,
-				DBA9810A1B91F2490069E0C8 /* Assets.xcassets in Resources */,
-				DBA981051B91F2490069E0C8 /* Main.storyboard in Resources */,
+				DBEFD6581B9CCA9E0045FCD1 /* LaunchScreen.storyboard in Resources */,
+				DBEFD6551B9CCA9E0045FCD1 /* Assets.xcassets in Resources */,
+				DBEFD6501B9CCA9E0045FCD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA981111B91F2490069E0C8 /* Resources */ = {
+		DBEFD65C1B9CCA9E0045FCD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA9811C1B91F2490069E0C8 /* Resources */ = {
+		DBEFD6671B9CCA9E0045FCD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,61 +268,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DBA980F81B91F2490069E0C8 /* Sources */ = {
+		DBEFD6431B9CCA9E0045FCD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA981081B91F2490069E0C8 /* AnimalFarm.xcdatamodeld in Sources */,
-				DBA981021B91F2490069E0C8 /* ViewController.swift in Sources */,
-				DBA981001B91F2490069E0C8 /* AppDelegate.swift in Sources */,
-				DBFC44DB1B93BBBB00692C2F /* animalFarm.swift in Sources */,
+				DBEFD64D1B9CCA9E0045FCD1 /* ViewController.swift in Sources */,
+				DB2BF9951B9CD074006A9DAC /* animalFarmList.swift in Sources */,
+				DBEFD6531B9CCA9E0045FCD1 /* animalFarm.xcdatamodeld in Sources */,
+				DB2BF9931B9CD05D006A9DAC /* animalNameCell.swift in Sources */,
+				DBEFD64B1B9CCA9E0045FCD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA9810F1B91F2490069E0C8 /* Sources */ = {
+		DBEFD65A1B9CCA9E0045FCD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA981181B91F2490069E0C8 /* AnimalFarmTests.swift in Sources */,
+				DBEFD6631B9CCA9E0045FCD1 /* animalFarmTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA9811A1B91F2490069E0C8 /* Sources */ = {
+		DBEFD6651B9CCA9E0045FCD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA981231B91F2490069E0C8 /* AnimalFarmUITests.swift in Sources */,
+				DBEFD66E1B9CCA9E0045FCD1 /* animalFarmUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DBA981151B91F2490069E0C8 /* PBXTargetDependency */ = {
+		DBEFD6601B9CCA9E0045FCD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DBA980FB1B91F2490069E0C8 /* AnimalFarm */;
-			targetProxy = DBA981141B91F2490069E0C8 /* PBXContainerItemProxy */;
+			target = DBEFD6461B9CCA9E0045FCD1 /* animalFarm */;
+			targetProxy = DBEFD65F1B9CCA9E0045FCD1 /* PBXContainerItemProxy */;
 		};
-		DBA981201B91F2490069E0C8 /* PBXTargetDependency */ = {
+		DBEFD66B1B9CCA9E0045FCD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DBA980FB1B91F2490069E0C8 /* AnimalFarm */;
-			targetProxy = DBA9811F1B91F2490069E0C8 /* PBXContainerItemProxy */;
+			target = DBEFD6461B9CCA9E0045FCD1 /* animalFarm */;
+			targetProxy = DBEFD66A1B9CCA9E0045FCD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DBA981031B91F2490069E0C8 /* Main.storyboard */ = {
+		DBEFD64E1B9CCA9E0045FCD1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DBA981041B91F2490069E0C8 /* Base */,
+				DBEFD64F1B9CCA9E0045FCD1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DBA9810B1B91F2490069E0C8 /* LaunchScreen.storyboard */ = {
+		DBEFD6561B9CCA9E0045FCD1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DBA9810C1B91F2490069E0C8 /* Base */,
+				DBEFD6571B9CCA9E0045FCD1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +331,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DBA981251B91F2490069E0C8 /* Debug */ = {
+		DBEFD6701B9CCA9E0045FCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -364,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		DBA981261B91F2490069E0C8 /* Release */ = {
+		DBEFD6711B9CCA9E0045FCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,72 +414,72 @@
 			};
 			name = Release;
 		};
-		DBA981281B91F2490069E0C8 /* Debug */ = {
+		DBEFD6731B9CCA9E0045FCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AnimalFarm/Info.plist;
+				INFOPLIST_FILE = animalFarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.AnimalFarm;
+				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.animalFarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		DBA981291B91F2490069E0C8 /* Release */ = {
+		DBEFD6741B9CCA9E0045FCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AnimalFarm/Info.plist;
+				INFOPLIST_FILE = animalFarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.AnimalFarm;
+				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.animalFarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		DBA9812B1B91F2490069E0C8 /* Debug */ = {
+		DBEFD6761B9CCA9E0045FCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AnimalFarmTests/Info.plist;
+				INFOPLIST_FILE = animalFarmTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.AnimalFarmTests;
+				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.animalFarmTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalFarm.app/AnimalFarm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animalFarm.app/animalFarm";
 			};
 			name = Debug;
 		};
-		DBA9812C1B91F2490069E0C8 /* Release */ = {
+		DBEFD6771B9CCA9E0045FCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AnimalFarmTests/Info.plist;
+				INFOPLIST_FILE = animalFarmTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.AnimalFarmTests;
+				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.animalFarmTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalFarm.app/AnimalFarm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animalFarm.app/animalFarm";
 			};
 			name = Release;
 		};
-		DBA9812E1B91F2490069E0C8 /* Debug */ = {
+		DBEFD6791B9CCA9E0045FCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = AnimalFarmUITests/Info.plist;
+				INFOPLIST_FILE = animalFarmUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.AnimalFarmUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.animalFarmUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AnimalFarm;
+				TEST_TARGET_NAME = animalFarm;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		DBA9812F1B91F2490069E0C8 /* Release */ = {
+		DBEFD67A1B9CCA9E0045FCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = AnimalFarmUITests/Info.plist;
+				INFOPLIST_FILE = animalFarmUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.AnimalFarmUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = marcyregalado.animalFarmUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AnimalFarm;
+				TEST_TARGET_NAME = animalFarm;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -475,38 +487,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DBA980F71B91F2490069E0C8 /* Build configuration list for PBXProject "AnimalFarm" */ = {
+		DBEFD6421B9CCA9E0045FCD1 /* Build configuration list for PBXProject "animalFarm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBA981251B91F2490069E0C8 /* Debug */,
-				DBA981261B91F2490069E0C8 /* Release */,
+				DBEFD6701B9CCA9E0045FCD1 /* Debug */,
+				DBEFD6711B9CCA9E0045FCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBA981271B91F2490069E0C8 /* Build configuration list for PBXNativeTarget "AnimalFarm" */ = {
+		DBEFD6721B9CCA9E0045FCD1 /* Build configuration list for PBXNativeTarget "animalFarm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBA981281B91F2490069E0C8 /* Debug */,
-				DBA981291B91F2490069E0C8 /* Release */,
+				DBEFD6731B9CCA9E0045FCD1 /* Debug */,
+				DBEFD6741B9CCA9E0045FCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBA9812A1B91F2490069E0C8 /* Build configuration list for PBXNativeTarget "AnimalFarmTests" */ = {
+		DBEFD6751B9CCA9E0045FCD1 /* Build configuration list for PBXNativeTarget "animalFarmTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBA9812B1B91F2490069E0C8 /* Debug */,
-				DBA9812C1B91F2490069E0C8 /* Release */,
+				DBEFD6761B9CCA9E0045FCD1 /* Debug */,
+				DBEFD6771B9CCA9E0045FCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBA9812D1B91F2490069E0C8 /* Build configuration list for PBXNativeTarget "AnimalFarmUITests" */ = {
+		DBEFD6781B9CCA9E0045FCD1 /* Build configuration list for PBXNativeTarget "animalFarmUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBA9812E1B91F2490069E0C8 /* Debug */,
-				DBA9812F1B91F2490069E0C8 /* Release */,
+				DBEFD6791B9CCA9E0045FCD1 /* Debug */,
+				DBEFD67A1B9CCA9E0045FCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -514,17 +526,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DBA981061B91F2490069E0C8 /* AnimalFarm.xcdatamodeld */ = {
+		DBEFD6511B9CCA9E0045FCD1 /* animalFarm.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DBA981071B91F2490069E0C8 /* AnimalFarm.xcdatamodel */,
+				DBEFD6521B9CCA9E0045FCD1 /* animalFarm.xcdatamodel */,
 			);
-			currentVersion = DBA981071B91F2490069E0C8 /* AnimalFarm.xcdatamodel */;
-			path = AnimalFarm.xcdatamodeld;
+			currentVersion = DBEFD6521B9CCA9E0045FCD1 /* animalFarm.xcdatamodel */;
+			path = animalFarm.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = DBA980F41B91F2490069E0C8 /* Project object */;
+	rootObject = DBEFD63F1B9CCA9E0045FCD1 /* Project object */;
 }

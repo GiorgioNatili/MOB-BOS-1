@@ -1,15 +1,15 @@
 //
-//  AnimalFarmTests.swift
-//  AnimalFarmTests
+//  animalFarmTests.swift
+//  animalFarmTests
 //
-//  Created by Marcy Regalado on 8/29/15.
+//  Created by Marcy Regalado on 9/6/15.
 //  Copyright © 2015 Marcy Regalado. All rights reserved.
 //
 
 import XCTest
-@testable import AnimalFarm
+@testable import animalFarm
 
-class AnimalFarmTests: XCTestCase {
+class animalFarmTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
