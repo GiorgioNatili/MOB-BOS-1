@@ -1,14 +1,14 @@
 //
-//  AnimalFarmUITests.swift
-//  AnimalFarmUITests
+//  animalFarmUITests.swift
+//  animalFarmUITests
 //
-//  Created by Marcy Regalado on 8/29/15.
+//  Created by Marcy Regalado on 9/6/15.
 //  Copyright © 2015 Marcy Regalado. All rights reserved.
 //
 
 import XCTest
 
-class AnimalFarmUITests: XCTestCase {
+class animalFarmUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
