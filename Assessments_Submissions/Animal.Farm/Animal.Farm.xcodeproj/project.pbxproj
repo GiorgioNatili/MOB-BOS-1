@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB29E1FB1B9D05CF00730B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29E1FA1B9D05CF00730B4A /* AppDelegate.swift */; };
+		DB29E1FD1B9D05CF00730B4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29E1FC1B9D05CF00730B4A /* ViewController.swift */; };
+		DB29E2001B9D05CF00730B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB29E1FE1B9D05CF00730B4A /* Main.storyboard */; };
+		DB29E2031B9D05CF00730B4A /* Animal_Farm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB29E2011B9D05CF00730B4A /* Animal_Farm.xcdatamodeld */; };
+		DB29E2051B9D05CF00730B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB29E2041B9D05CF00730B4A /* Assets.xcassets */; };
+		DB29E2081B9D05CF00730B4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB29E2061B9D05CF00730B4A /* LaunchScreen.storyboard */; };
+		DB29E2131B9D05CF00730B4A /* Animal_FarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29E2121B9D05CF00730B4A /* Animal_FarmTests.swift */; };
+		DB29E21E1B9D05CF00730B4A /* Animal_FarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29E21D1B9D05CF00730B4A /* Animal_FarmUITests.swift */; };
+		DB29E22C1B9D066E00730B4A /* AnimalNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29E22B1B9D066E00730B4A /* AnimalNameCell.swift */; };
+		DB29E22E1B9D067E00730B4A /* AnimalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29E22D1B9D067E00730B4A /* AnimalList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB29E20F1B9D05CF00730B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB29E1EF1B9D05CF00730B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB29E1F61B9D05CF00730B4A;
+			remoteInfo = Animal.Farm;
+		};
+		DB29E21A1B9D05CF00730B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB29E1EF1B9D05CF00730B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB29E1F61B9D05CF00730B4A;
+			remoteInfo = Animal.Farm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB29E1F71B9D05CF00730B4A /* Animal.Farm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animal.Farm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB29E1FA1B9D05CF00730B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB29E1FC1B9D05CF00730B4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB29E1FF1B9D05CF00730B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB29E2021B9D05CF00730B4A /* Animal_Farm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Animal_Farm.xcdatamodel; sourceTree = "<group>"; };
+		DB29E2041B9D05CF00730B4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB29E2071B9D05CF00730B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB29E2091B9D05CF00730B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB29E20E1B9D05CF00730B4A /* Animal.FarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animal.FarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB29E2121B9D05CF00730B4A /* Animal_FarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal_FarmTests.swift; sourceTree = "<group>"; };
+		DB29E2141B9D05CF00730B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB29E2191B9D05CF00730B4A /* Animal.FarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animal.FarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB29E21D1B9D05CF00730B4A /* Animal_FarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal_FarmUITests.swift; sourceTree = "<group>"; };
+		DB29E21F1B9D05CF00730B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB29E22B1B9D066E00730B4A /* AnimalNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalNameCell.swift; sourceTree = "<group>"; };
+		DB29E22D1B9D067E00730B4A /* AnimalList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB29E1F41B9D05CF00730B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB29E20B1B9D05CF00730B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB29E2161B9D05CF00730B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB29E1EE1B9D05CF00730B4A = {
+			isa = PBXGroup;
+			children = (
+				DB29E1F91B9D05CF00730B4A /* Animal.Farm */,
+				DB29E2111B9D05CF00730B4A /* Animal.FarmTests */,
+				DB29E21C1B9D05CF00730B4A /* Animal.FarmUITests */,
+				DB29E1F81B9D05CF00730B4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB29E1F81B9D05CF00730B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB29E1F71B9D05CF00730B4A /* Animal.Farm.app */,
+				DB29E20E1B9D05CF00730B4A /* Animal.FarmTests.xctest */,
+				DB29E2191B9D05CF00730B4A /* Animal.FarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB29E1F91B9D05CF00730B4A /* Animal.Farm */ = {
+			isa = PBXGroup;
+			children = (
+				DB29E1FA1B9D05CF00730B4A /* AppDelegate.swift */,
+				DB29E1FC1B9D05CF00730B4A /* ViewController.swift */,
+				DB29E1FE1B9D05CF00730B4A /* Main.storyboard */,
+				DB29E22B1B9D066E00730B4A /* AnimalNameCell.swift */,
+				DB29E22D1B9D067E00730B4A /* AnimalList.swift */,
+				DB29E2041B9D05CF00730B4A /* Assets.xcassets */,
+				DB29E2061B9D05CF00730B4A /* LaunchScreen.storyboard */,
+				DB29E2091B9D05CF00730B4A /* Info.plist */,
+				DB29E2011B9D05CF00730B4A /* Animal_Farm.xcdatamodeld */,
+			);
+			path = Animal.Farm;
+			sourceTree = "<group>";
+		};
+		DB29E2111B9D05CF00730B4A /* Animal.FarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB29E2121B9D05CF00730B4A /* Animal_FarmTests.swift */,
+				DB29E2141B9D05CF00730B4A /* Info.plist */,
+			);
+			path = Animal.FarmTests;
+			sourceTree = "<group>";
+		};
+		DB29E21C1B9D05CF00730B4A /* Animal.FarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB29E21D1B9D05CF00730B4A /* Animal_FarmUITests.swift */,
+				DB29E21F1B9D05CF00730B4A /* Info.plist */,
+			);
+			path = Animal.FarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB29E1F61B9D05CF00730B4A /* Animal.Farm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB29E2221B9D05CF00730B4A /* Build configuration list for PBXNativeTarget "Animal.Farm" */;
+			buildPhases = (
+				DB29E1F31B9D05CF00730B4A /* Sources */,
+				DB29E1F41B9D05CF00730B4A /* Frameworks */,
+				DB29E1F51B9D05CF00730B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animal.Farm;
+			productName = Animal.Farm;
+			productReference = DB29E1F71B9D05CF00730B4A /* Animal.Farm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB29E20D1B9D05CF00730B4A /* Animal.FarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB29E2251B9D05CF00730B4A /* Build configuration list for PBXNativeTarget "Animal.FarmTests" */;
+			buildPhases = (
+				DB29E20A1B9D05CF00730B4A /* Sources */,
+				DB29E20B1B9D05CF00730B4A /* Frameworks */,
+				DB29E20C1B9D05CF00730B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB29E2101B9D05CF00730B4A /* PBXTargetDependency */,
+			);
+			name = Animal.FarmTests;
+			productName = Animal.FarmTests;
+			productReference = DB29E20E1B9D05CF00730B4A /* Animal.FarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB29E2181B9D05CF00730B4A /* Animal.FarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB29E2281B9D05CF00730B4A /* Build configuration list for PBXNativeTarget "Animal.FarmUITests" */;
+			buildPhases = (
+				DB29E2151B9D05CF00730B4A /* Sources */,
+				DB29E2161B9D05CF00730B4A /* Frameworks */,
+				DB29E2171B9D05CF00730B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB29E21B1B9D05CF00730B4A /* PBXTargetDependency */,
+			);
+			name = Animal.FarmUITests;
+			productName = Animal.FarmUITests;
+			productReference = DB29E2191B9D05CF00730B4A /* Animal.FarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB29E1EF1B9D05CF00730B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Marcy Regalado";
+				TargetAttributes = {
+					DB29E1F61B9D05CF00730B4A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DB29E20D1B9D05CF00730B4A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB29E1F61B9D05CF00730B4A;
+					};
+					DB29E2181B9D05CF00730B4A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB29E1F61B9D05CF00730B4A;
+					};
+				};
+			};
+			buildConfigurationList = DB29E1F21B9D05CF00730B4A /* Build configuration list for PBXProject "Animal.Farm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB29E1EE1B9D05CF00730B4A;
+			productRefGroup = DB29E1F81B9D05CF00730B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB29E1F61B9D05CF00730B4A /* Animal.Farm */,
+				DB29E20D1B9D05CF00730B4A /* Animal.FarmTests */,
+				DB29E2181B9D05CF00730B4A /* Animal.FarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB29E1F51B9D05CF00730B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB29E2081B9D05CF00730B4A /* LaunchScreen.storyboard in Resources */,
+				DB29E2051B9D05CF00730B4A /* Assets.xcassets in Resources */,
+				DB29E2001B9D05CF00730B4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB29E20C1B9D05CF00730B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB29E2171B9D05CF00730B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB29E1F31B9D05CF00730B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB29E2031B9D05CF00730B4A /* Animal_Farm.xcdatamodeld in Sources */,
+				DB29E1FD1B9D05CF00730B4A /* ViewController.swift in Sources */,
+				DB29E22C1B9D066E00730B4A /* AnimalNameCell.swift in Sources */,
+				DB29E1FB1B9D05CF00730B4A /* AppDelegate.swift in Sources */,
+				DB29E22E1B9D067E00730B4A /* AnimalList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB29E20A1B9D05CF00730B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB29E2131B9D05CF00730B4A /* Animal_FarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB29E2151B9D05CF00730B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB29E21E1B9D05CF00730B4A /* Animal_FarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB29E2101B9D05CF00730B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB29E1F61B9D05CF00730B4A /* Animal.Farm */;
+			targetProxy = DB29E20F1B9D05CF00730B4A /* PBXContainerItemProxy */;
+		};
+		DB29E21B1B9D05CF00730B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB29E1F61B9D05CF00730B4A /* Animal.Farm */;
+			targetProxy = DB29E21A1B9D05CF00730B4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB29E1FE1B9D05CF00730B4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB29E1FF1B9D05CF00730B4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB29E2061B9D05CF00730B4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB29E2071B9D05CF00730B4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB29E2201B9D05CF00730B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB29E2211B9D05CF00730B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB29E2231B9D05CF00730B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Animal.Farm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Animal-Farm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB29E2241B9D05CF00730B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Animal.Farm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Animal-Farm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB29E2261B9D05CF00730B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Animal.FarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Animal-FarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animal.Farm.app/Animal.Farm";
+			};
+			name = Debug;
+		};
+		DB29E2271B9D05CF00730B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Animal.FarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Animal-FarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animal.Farm.app/Animal.Farm";
+			};
+			name = Release;
+		};
+		DB29E2291B9D05CF00730B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Animal.FarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Animal-FarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Animal.Farm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB29E22A1B9D05CF00730B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Animal.FarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Animal-FarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Animal.Farm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB29E1F21B9D05CF00730B4A /* Build configuration list for PBXProject "Animal.Farm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29E2201B9D05CF00730B4A /* Debug */,
+				DB29E2211B9D05CF00730B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB29E2221B9D05CF00730B4A /* Build configuration list for PBXNativeTarget "Animal.Farm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29E2231B9D05CF00730B4A /* Debug */,
+				DB29E2241B9D05CF00730B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB29E2251B9D05CF00730B4A /* Build configuration list for PBXNativeTarget "Animal.FarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29E2261B9D05CF00730B4A /* Debug */,
+				DB29E2271B9D05CF00730B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB29E2281B9D05CF00730B4A /* Build configuration list for PBXNativeTarget "Animal.FarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29E2291B9D05CF00730B4A /* Debug */,
+				DB29E22A1B9D05CF00730B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB29E2011B9D05CF00730B4A /* Animal_Farm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB29E2021B9D05CF00730B4A /* Animal_Farm.xcdatamodel */,
+			);
+			currentVersion = DB29E2021B9D05CF00730B4A /* Animal_Farm.xcdatamodel */;
+			path = Animal_Farm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB29E1EF1B9D05CF00730B4A /* Project object */;
+}

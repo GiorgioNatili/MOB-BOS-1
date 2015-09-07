@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sty-fl-AMU">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="vv1-HN-2dv">
+            <objects>
+                <navigationController id="sty-fl-AMU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Icc-0e-Mrd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fWp-8S-wMP" kind="relationship" relationship="rootViewController" id="owu-Tm-QVr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A2v-mp-TCz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-383" y="747"/>
+        </scene>
+        <!--animal farm-->
+        <scene sceneID="BPm-R8-gPp">
+            <objects>
+                <tableViewController id="fWp-8S-wMP" customClass="AnimalList" customModule="Animal_Farm" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Bcz-GY-U1C">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="animalNameCell" id="8N0-bk-Pdp" customClass="AnimalNameCell" customModule="Animal_Farm" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8N0-bk-Pdp" id="dVh-LI-huY">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMa-kV-Y13">
+                                            <rect key="frame" x="30" y="11" width="300" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="300" id="0Uq-UT-Iar"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="rMa-kV-Y13" firstAttribute="top" secondItem="dVh-LI-huY" secondAttribute="topMargin" constant="3" id="0fl-Pk-ekQ"/>
+                                        <constraint firstItem="rMa-kV-Y13" firstAttribute="centerY" secondItem="dVh-LI-huY" secondAttribute="centerY" id="G2J-PQ-I9D"/>
+                                        <constraint firstItem="rMa-kV-Y13" firstAttribute="leading" secondItem="dVh-LI-huY" secondAttribute="leadingMargin" constant="22" id="Q3C-f9-iKy"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="animalName" destination="rMa-kV-Y13" id="uDu-QF-HVB"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fWp-8S-wMP" id="keI-tW-S45"/>
+                            <outlet property="delegate" destination="fWp-8S-wMP" id="x2R-tT-eKy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="animal farm" id="nWU-Qf-PRl">
+                        <barButtonItem key="rightBarButtonItem" title="add" id="RTL-UA-gBq">
+                            <connections>
+                                <action selector="addAnimal:" destination="fWp-8S-wMP" id="iY0-BE-N9t"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UQy-BN-hFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="263" y="747"/>
+        </scene>
+    </scenes>
+</document>

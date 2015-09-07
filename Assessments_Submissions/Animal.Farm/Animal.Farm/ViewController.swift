@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  animalFarm
+//  Animal.Farm
 //
 //  Created by Marcy Regalado on 9/6/15.
 //  Copyright © 2015 Marcy Regalado. All rights reserved.
