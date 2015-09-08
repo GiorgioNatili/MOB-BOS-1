@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2005BE1B9DD2BC000E929B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2005BD1B9DD2BC000E929B /* AppDelegate.swift */; };
+		DB2005C31B9DD2BC000E929B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2005C11B9DD2BC000E929B /* Main.storyboard */; };
+		DB2005C61B9DD2BC000E929B /* Shop_It.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB2005C41B9DD2BC000E929B /* Shop_It.xcdatamodeld */; };
+		DB2005C81B9DD2BC000E929B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2005C71B9DD2BC000E929B /* Assets.xcassets */; };
+		DB2005CB1B9DD2BC000E929B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2005C91B9DD2BC000E929B /* LaunchScreen.storyboard */; };
+		DB2005D61B9DD2BC000E929B /* Shop_ItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2005D51B9DD2BC000E929B /* Shop_ItTests.swift */; };
+		DB2005E11B9DD2BC000E929B /* Shop_ItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2005E01B9DD2BC000E929B /* Shop_ItUITests.swift */; };
+		DB2005EF1B9DE595000E929B /* ShopListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2005EE1B9DE595000E929B /* ShopListVC.swift */; };
+		DB2005F11B9DE737000E929B /* ShopListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2005F01B9DE737000E929B /* ShopListCell.swift */; };
+		DB2005F31B9DEA29000E929B /* AddNewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2005F21B9DEA29000E929B /* AddNewItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2005D21B9DD2BC000E929B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2005B21B9DD2BC000E929B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2005B91B9DD2BC000E929B;
+			remoteInfo = Shop.It;
+		};
+		DB2005DD1B9DD2BC000E929B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2005B21B9DD2BC000E929B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2005B91B9DD2BC000E929B;
+			remoteInfo = Shop.It;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2005BA1B9DD2BC000E929B /* Shop.It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.It.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2005BD1B9DD2BC000E929B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB2005C21B9DD2BC000E929B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2005C51B9DD2BC000E929B /* Shop_It.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shop_It.xcdatamodel; sourceTree = "<group>"; };
+		DB2005C71B9DD2BC000E929B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2005CA1B9DD2BC000E929B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB2005CC1B9DD2BC000E929B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2005D11B9DD2BC000E929B /* Shop.ItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shop.ItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2005D51B9DD2BC000E929B /* Shop_ItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop_ItTests.swift; sourceTree = "<group>"; };
+		DB2005D71B9DD2BC000E929B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2005DC1B9DD2BC000E929B /* Shop.ItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shop.ItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2005E01B9DD2BC000E929B /* Shop_ItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop_ItUITests.swift; sourceTree = "<group>"; };
+		DB2005E21B9DD2BC000E929B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2005EE1B9DE595000E929B /* ShopListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopListVC.swift; sourceTree = "<group>"; };
+		DB2005F01B9DE737000E929B /* ShopListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopListCell.swift; sourceTree = "<group>"; };
+		DB2005F21B9DEA29000E929B /* AddNewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2005B71B9DD2BC000E929B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2005CE1B9DD2BC000E929B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2005D91B9DD2BC000E929B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2005B11B9DD2BC000E929B = {
+			isa = PBXGroup;
+			children = (
+				DB2005BC1B9DD2BC000E929B /* Shop.It */,
+				DB2005D41B9DD2BC000E929B /* Shop.ItTests */,
+				DB2005DF1B9DD2BC000E929B /* Shop.ItUITests */,
+				DB2005BB1B9DD2BC000E929B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2005BB1B9DD2BC000E929B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2005BA1B9DD2BC000E929B /* Shop.It.app */,
+				DB2005D11B9DD2BC000E929B /* Shop.ItTests.xctest */,
+				DB2005DC1B9DD2BC000E929B /* Shop.ItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2005BC1B9DD2BC000E929B /* Shop.It */ = {
+			isa = PBXGroup;
+			children = (
+				DB2005BD1B9DD2BC000E929B /* AppDelegate.swift */,
+				DB2005C11B9DD2BC000E929B /* Main.storyboard */,
+				DB2005F01B9DE737000E929B /* ShopListCell.swift */,
+				DB2005EE1B9DE595000E929B /* ShopListVC.swift */,
+				DB2005F21B9DEA29000E929B /* AddNewItem.swift */,
+				DB2005C71B9DD2BC000E929B /* Assets.xcassets */,
+				DB2005C91B9DD2BC000E929B /* LaunchScreen.storyboard */,
+				DB2005CC1B9DD2BC000E929B /* Info.plist */,
+				DB2005C41B9DD2BC000E929B /* Shop_It.xcdatamodeld */,
+			);
+			path = Shop.It;
+			sourceTree = "<group>";
+		};
+		DB2005D41B9DD2BC000E929B /* Shop.ItTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2005D51B9DD2BC000E929B /* Shop_ItTests.swift */,
+				DB2005D71B9DD2BC000E929B /* Info.plist */,
+			);
+			path = Shop.ItTests;
+			sourceTree = "<group>";
+		};
+		DB2005DF1B9DD2BC000E929B /* Shop.ItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2005E01B9DD2BC000E929B /* Shop_ItUITests.swift */,
+				DB2005E21B9DD2BC000E929B /* Info.plist */,
+			);
+			path = Shop.ItUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2005B91B9DD2BC000E929B /* Shop.It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2005E51B9DD2BC000E929B /* Build configuration list for PBXNativeTarget "Shop.It" */;
+			buildPhases = (
+				DB2005B61B9DD2BC000E929B /* Sources */,
+				DB2005B71B9DD2BC000E929B /* Frameworks */,
+				DB2005B81B9DD2BC000E929B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shop.It;
+			productName = Shop.It;
+			productReference = DB2005BA1B9DD2BC000E929B /* Shop.It.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB2005D01B9DD2BC000E929B /* Shop.ItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2005E81B9DD2BC000E929B /* Build configuration list for PBXNativeTarget "Shop.ItTests" */;
+			buildPhases = (
+				DB2005CD1B9DD2BC000E929B /* Sources */,
+				DB2005CE1B9DD2BC000E929B /* Frameworks */,
+				DB2005CF1B9DD2BC000E929B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2005D31B9DD2BC000E929B /* PBXTargetDependency */,
+			);
+			name = Shop.ItTests;
+			productName = Shop.ItTests;
+			productReference = DB2005D11B9DD2BC000E929B /* Shop.ItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB2005DB1B9DD2BC000E929B /* Shop.ItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2005EB1B9DD2BC000E929B /* Build configuration list for PBXNativeTarget "Shop.ItUITests" */;
+			buildPhases = (
+				DB2005D81B9DD2BC000E929B /* Sources */,
+				DB2005D91B9DD2BC000E929B /* Frameworks */,
+				DB2005DA1B9DD2BC000E929B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2005DE1B9DD2BC000E929B /* PBXTargetDependency */,
+			);
+			name = Shop.ItUITests;
+			productName = Shop.ItUITests;
+			productReference = DB2005DC1B9DD2BC000E929B /* Shop.ItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2005B21B9DD2BC000E929B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Marcy Regalado";
+				TargetAttributes = {
+					DB2005B91B9DD2BC000E929B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DB2005D01B9DD2BC000E929B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB2005B91B9DD2BC000E929B;
+					};
+					DB2005DB1B9DD2BC000E929B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB2005B91B9DD2BC000E929B;
+					};
+				};
+			};
+			buildConfigurationList = DB2005B51B9DD2BC000E929B /* Build configuration list for PBXProject "Shop.It" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2005B11B9DD2BC000E929B;
+			productRefGroup = DB2005BB1B9DD2BC000E929B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2005B91B9DD2BC000E929B /* Shop.It */,
+				DB2005D01B9DD2BC000E929B /* Shop.ItTests */,
+				DB2005DB1B9DD2BC000E929B /* Shop.ItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2005B81B9DD2BC000E929B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2005CB1B9DD2BC000E929B /* LaunchScreen.storyboard in Resources */,
+				DB2005C81B9DD2BC000E929B /* Assets.xcassets in Resources */,
+				DB2005C31B9DD2BC000E929B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2005CF1B9DD2BC000E929B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2005DA1B9DD2BC000E929B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2005B61B9DD2BC000E929B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2005C61B9DD2BC000E929B /* Shop_It.xcdatamodeld in Sources */,
+				DB2005F11B9DE737000E929B /* ShopListCell.swift in Sources */,
+				DB2005EF1B9DE595000E929B /* ShopListVC.swift in Sources */,
+				DB2005BE1B9DD2BC000E929B /* AppDelegate.swift in Sources */,
+				DB2005F31B9DEA29000E929B /* AddNewItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2005CD1B9DD2BC000E929B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2005D61B9DD2BC000E929B /* Shop_ItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2005D81B9DD2BC000E929B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2005E11B9DD2BC000E929B /* Shop_ItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB2005D31B9DD2BC000E929B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2005B91B9DD2BC000E929B /* Shop.It */;
+			targetProxy = DB2005D21B9DD2BC000E929B /* PBXContainerItemProxy */;
+		};
+		DB2005DE1B9DD2BC000E929B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2005B91B9DD2BC000E929B /* Shop.It */;
+			targetProxy = DB2005DD1B9DD2BC000E929B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB2005C11B9DD2BC000E929B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2005C21B9DD2BC000E929B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2005C91B9DD2BC000E929B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2005CA1B9DD2BC000E929B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2005E31B9DD2BC000E929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2005E41B9DD2BC000E929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2005E61B9DD2BC000E929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shop.It/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Shop-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB2005E71B9DD2BC000E929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shop.It/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Shop-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB2005E91B9DD2BC000E929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Shop.ItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Shop-ItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shop.It.app/Shop.It";
+			};
+			name = Debug;
+		};
+		DB2005EA1B9DD2BC000E929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Shop.ItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Shop-ItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shop.It.app/Shop.It";
+			};
+			name = Release;
+		};
+		DB2005EC1B9DD2BC000E929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Shop.ItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Shop-ItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shop.It;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB2005ED1B9DD2BC000E929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Shop.ItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "marcyregalado.Shop-ItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shop.It;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2005B51B9DD2BC000E929B /* Build configuration list for PBXProject "Shop.It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2005E31B9DD2BC000E929B /* Debug */,
+				DB2005E41B9DD2BC000E929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2005E51B9DD2BC000E929B /* Build configuration list for PBXNativeTarget "Shop.It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2005E61B9DD2BC000E929B /* Debug */,
+				DB2005E71B9DD2BC000E929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB2005E81B9DD2BC000E929B /* Build configuration list for PBXNativeTarget "Shop.ItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2005E91B9DD2BC000E929B /* Debug */,
+				DB2005EA1B9DD2BC000E929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB2005EB1B9DD2BC000E929B /* Build configuration list for PBXNativeTarget "Shop.ItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2005EC1B9DD2BC000E929B /* Debug */,
+				DB2005ED1B9DD2BC000E929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB2005C41B9DD2BC000E929B /* Shop_It.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB2005C51B9DD2BC000E929B /* Shop_It.xcdatamodel */,
+			);
+			currentVersion = DB2005C51B9DD2BC000E929B /* Shop_It.xcdatamodel */;
+			path = Shop_It.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB2005B21B9DD2BC000E929B /* Project object */;
+}
