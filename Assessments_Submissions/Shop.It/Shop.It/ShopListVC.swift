@@ -1,49 +1,16 @@
 //
-//  AnimalList.swift
-//  Animal.Farm
+//  ShopListVC.swift
+//  Shop.It
 //
-//  Created by Marcy Regalado on 9/6/15.
+//  Created by Marcy Regalado on 9/7/15.
 //  Copyright © 2015 Marcy Regalado. All rights reserved.
 //
 
 import UIKit
 
-class AnimalList: UITableViewController {
+class ShopListVC: UITableViewController {
     
-    private var animalList = ["Pengin","Dolphin","Giraffe"]
-    
-    
-    //Code structure from: http://swiftoverload.com/uialertcontroller-swift-example/
-    
-    @IBAction func addAnimal(sender: AnyObject) {
-        var animalInput: UITextField!
-        let addAnimalName = UIAlertController(title: "Add New Animal", message: "Enter an animal name :)", preferredStyle: .Alert)
-        
-        //Create a cancel option
-        let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .Cancel) { action -> Void in
-            
-        }
-        addAnimalName.addAction(cancelAction)
-        
-        
-        //Create another option action
-        let addAction: UIAlertAction = UIAlertAction(title: "Add", style: .Default) { action -> Void in
-            self.animalList.append(animalInput!.text!)
-            //inserting new animal
-            let updatedIndexPath = NSIndexPath(forRow: self.animalList.count - 1, inSection: 0)
-            self.tableView.insertRowsAtIndexPaths([updatedIndexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
-        }
-        addAnimalName.addAction(addAction)
-        
-        //Add a text field
-        addAnimalName.addTextFieldWithConfigurationHandler({(textField: UITextField!) in
-            animalInput = textField
-        })
-        
-        //Presenting TableViewController
-        self.presentViewController(addAnimalName, animated: true, completion: nil)
-        
-    }
+    private var shoppingList = ["test", "test","test"] //be sure to erase the compnents from here
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,27 +36,15 @@ class AnimalList: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return animalList.count
+        return shoppingList.count
     }
-    
-    // MARK: accessing local memory
-    
-    
-    func newAnimal(item:String) {
-        if !item.isEmpty {
-            animalList.append(item)
-            self.tableView.reloadData() //this also updates the current animal list
-            navigationController?.popToRootViewControllerAnimated(true) //returns to the root view controller
-        }
-    }
-   
-    // MARK: - Navigation
+
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("animalNameCell", forIndexPath: indexPath) as! AnimalNameCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("itemCell", forIndexPath: indexPath) as! ShopListCell
 
-        cell.animalName?.text = animalList[indexPath.row]
-        
+        cell.itemName?.text = shoppingList[indexPath.row]
+
         return cell
     }
 
@@ -102,21 +57,17 @@ class AnimalList: UITableViewController {
     }
     */
 
+    /*
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
-            animalList.removeAtIndex(indexPath.row)
+            // Delete the row from the data source
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-
-    // MARK: user interaction
-  
-    
-}
-    
+    */
 
     /*
     // Override to support rearranging the table view.
@@ -134,7 +85,7 @@ class AnimalList: UITableViewController {
     */
 
     /*
-
+    // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -143,4 +94,4 @@ class AnimalList: UITableViewController {
     }
     */
 
-
+}
