@@ -14,6 +14,7 @@
 		0950BD0C1BA0F4F00041A535 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0950BD0B1BA0F4F00041A535 /* Images.xcassets */; };
 		0950BD0F1BA0F4F00041A535 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0950BD0D1BA0F4F00041A535 /* LaunchScreen.xib */; };
 		0950BD1B1BA0F4F00041A535 /* GroceryTableViewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950BD1A1BA0F4F00041A535 /* GroceryTableViewProjectTests.swift */; };
+		0950BD251BA0F7120041A535 /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950BD241BA0F7120041A535 /* GroceryListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0950BD141BA0F4F00041A535 /* GroceryTableViewProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryTableViewProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0950BD191BA0F4F00041A535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0950BD1A1BA0F4F00041A535 /* GroceryTableViewProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTableViewProjectTests.swift; sourceTree = "<group>"; };
+		0950BD241BA0F7120041A535 /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				0950BD011BA0F4EF0041A535 /* AppDelegate.swift */,
 				0950BD061BA0F4EF0041A535 /* ViewController.swift */,
 				0950BD081BA0F4F00041A535 /* Main.storyboard */,
+				0950BD241BA0F7120041A535 /* GroceryListTableViewController.swift */,
 				0950BD0B1BA0F4F00041A535 /* Images.xcassets */,
 				0950BD0D1BA0F4F00041A535 /* LaunchScreen.xib */,
 				0950BD031BA0F4EF0041A535 /* GroceryTableViewProject.xcdatamodeld */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0950BD071BA0F4EF0041A535 /* ViewController.swift in Sources */,
+				0950BD251BA0F7120041A535 /* GroceryListTableViewController.swift in Sources */,
 				0950BD021BA0F4EF0041A535 /* AppDelegate.swift in Sources */,
 				0950BD051BA0F4EF0041A535 /* GroceryTableViewProject.xcdatamodeld in Sources */,
 			);
