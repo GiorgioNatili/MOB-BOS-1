@@ -153,5 +153,25 @@ class GroceryListTableViewController: UITableViewController {
         
         groceries.append(item)
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let managedContext = appDelegate.managedObjectContext!
+        
+        let fetchRequest = NSFetchRequest(entityName: "Item")
+        
+        var error: NSError?
+        
+        let fetchedResults = managedContext.executeFetchRequest(fetchRequest,
+            error: &error) as? [NSManagedObject]
+        
+        if let results = fetchedResults {
+            groceries = results
+        } else {
+            println("Could not fetch \(error), \(error!.userInfo)")
+        }
+    }
 
 }
