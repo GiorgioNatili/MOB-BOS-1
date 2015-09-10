@@ -14,10 +14,9 @@ class GroceryListTableViewController: UITableViewController {
     private var groceries = [NSManagedObject]()
     
     private var groceriesImages = [
-        "image_1",
-        "image_2",
-        "image_3",
-        "image_4"
+        "burger",
+        "sandwich",
+        "hotdog"
     ]
 
     override func viewDidLoad() {
@@ -54,8 +53,9 @@ class GroceryListTableViewController: UITableViewController {
 
         var item = groceries[indexPath.row]
         cell.textLabel?.text = item.valueForKey("name") as? String
-        // var image : UIImage = UIImage(named: groceriesImages[indexPath.row])!
-
+        var image : UIImage = UIImage(named: groceriesImages[0])!
+        cell.imageView!.image = image
+        
         return cell
     }
 
@@ -67,17 +67,21 @@ class GroceryListTableViewController: UITableViewController {
     }
     */
 
-    /*
+
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
-            // Delete the row from the data source
+            let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+            let managedContext = appDelegate.managedObjectContext!
+            managedContext.deleteObject(groceries[indexPath.row] as NSManagedObject)
+            groceries.removeAtIndex(indexPath.row)
+            managedContext.save(nil)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+
 
     /*
     // Override to support rearranging the table view.
