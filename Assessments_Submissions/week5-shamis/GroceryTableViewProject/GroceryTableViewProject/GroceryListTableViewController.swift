@@ -7,15 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
 class GroceryListTableViewController: UITableViewController {
     
-    private var groceries = [
-        "Milk",
-        "Vegetables",
-        "Chicken",
-        "Beer"
-    ]
+    private var groceries = [NSManagedObject]()
     
     private var groceriesImages = [
         "image_1",
@@ -56,7 +52,8 @@ class GroceryListTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("groceryItem", forIndexPath: indexPath) as! UITableViewCell
 
-        cell.textLabel?.text = groceries[indexPath.row]
+        var item = groceries[indexPath.row]
+        cell.textLabel?.text = item.valueForKey("name") as? String
         // var image : UIImage = UIImage(named: groceriesImages[indexPath.row])!
 
         return cell
@@ -116,7 +113,7 @@ class GroceryListTableViewController: UITableViewController {
             style: .Default) { (action: UIAlertAction!) -> Void in
                 
                 let textField = alert.textFields![0] as! UITextField
-                self.groceries.append(textField.text.capitalizedString)
+                self.saveName(textField.text)
                 self.tableView.reloadData()
         }
         
@@ -134,6 +131,27 @@ class GroceryListTableViewController: UITableViewController {
         presentViewController(alert,
             animated: true,
             completion: nil)
+    }
+    
+    func saveName(name: String) {
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let managedContext = appDelegate.managedObjectContext!
+        
+        let entity =  NSEntityDescription.entityForName("Item",
+            inManagedObjectContext:
+            managedContext)
+        
+        let item = NSManagedObject(entity: entity!,
+            insertIntoManagedObjectContext:managedContext)
+        
+        item.setValue(name, forKey: "name")
+        
+        var error: NSError?
+        if !managedContext.save(&error) {
+            println("Could not save \(error), \(error?.userInfo)")
+        }
+        
+        groceries.append(item)
     }
 
 }
