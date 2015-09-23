@@ -24,21 +24,34 @@ class SongsTableViewController: UITableViewController {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "onDataRecovered:", name:"songsFeteched", object: nil)
         
         SongsProvider.fetchSongs()
-        // Pull to refresh 
+        
+        // Pull to refresh
         self.refreshControl = UIRefreshControl()
         self.refreshControl!.attributedTitle = NSAttributedString(string: "Pull to refresh :)")
-        self.refreshControl!.addTarget(self, action: "refresh:", forControlEvents: UIControlEvents.ValueChanged)
+        self.refreshControl!.addTarget(self, action: "refreshCell:", forControlEvents: UIControlEvents.ValueChanged)
         self.tableView.addSubview(refreshControl!)
         tableView.reloadData()
-        refreshControl?.endRefreshing()
+        
         
     }
     
     func refreshCell(Sender: UIButton!)
     {
-        print("Refresh!")
+        print("Refreshed!")
+        
+        // refresh stops at 10 second!
+        
+        NSTimer.scheduledTimerWithTimeInterval(10.0, target: self, selector: "stoprefresh" , userInfo: nil, repeats: false)
     }
-
+    // End of Trail
+    
+    func stoprefresh()
+    
+    {
+        self.refreshControl?.endRefreshing()
+        print("Refresh action stopped after 10 second!")
+    }
+    
     override func viewDidDisappear(animated: Bool) {
         
         super.viewDidDisappear(animated)
