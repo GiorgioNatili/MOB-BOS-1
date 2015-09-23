@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import CoreData
 
 class AnimalTableViewController: UITableViewController {
     
     let textCellIdentifier = "TextCell"
     
     var zooKeeper = ["Big Tiger!", "Bad Bear", "America Eagle~"]
+    // var zooKeeper = [NSManagedObject]()
     
     
     @IBAction func addAnimal(sender: AnyObject) {
@@ -36,6 +38,8 @@ class AnimalTableViewController: UITableViewController {
                     
                     self.zooKeeper.append(textField.text)
                 }
+                
+                
                 println(textField.dynamicType)
             }
   
@@ -46,6 +50,7 @@ class AnimalTableViewController: UITableViewController {
 
             //let animal = textField!.text ??  : "some animal"
             //
+            
             self.tableView.reloadData()
             
         }
