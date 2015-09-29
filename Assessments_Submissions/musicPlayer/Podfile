@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+
+platform :ios, '8.0'
+use_frameworks!
+
+target 'musicPlayer' do
+    pod 'Alamofire', '~> 2.0'
+    pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+end
+
+target 'musicPlayerTests' do
+
+end
+
+target 'musicPlayerUITests' do
+
+end
+
